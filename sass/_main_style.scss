@@ -1,3 +1,10 @@
+$theme-color:#b28850;
+$m-gray-color:#403e3a;
+$footer-gray-color:#32312e;
+$hover-color:#9e6821;
+$HL-color:#8a2b1e;
+
+
 
 // ALL
 
@@ -5,10 +12,86 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
-    font-family: sans-serif;
+    font-family: serif;
 }
 
 p{
     line-height: 1.45em;
+}
+
+.clearfix{
+    &:after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+}
+
+
+// header
+.header{
+    background-color: #4b4a47;
+    min-height: 100vh;
+    .header-bg{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background-image: url(../images/keyvisual.jpg);
+        background-size: auto 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 0;
+        -webkit-mask-image: -webkit-gradient(
+            linear, left top, right top, 
+            color-stop(0.00,  rgba(0,0,0,0)),
+            color-stop(0.08,  rgba(0,0,0,0)),
+            color-stop(0.23,  rgba(0,0,0,1)),
+            color-stop(0.40,  rgba(0,0,0,1)),
+            color-stop(0.80,  rgba(0,0,0,1)),
+            color-stop(0.92,  rgba(0,0,0,0)),
+            color-stop(1.00,  rgba(0,0,0,0)));
+    }
+}
+
+.nav-zone{
+    padding: 0 50px;
+    position: relative;
+    z-index: 100;
+    
+    .logo-box{
+        float: left;
+        width: 220px;
+        
+        img{
+            width: 100%;
+        }
+    }
+    
+    .navi-box{
+        float: right;
+        ul{
+            padding: 50px 0;
+            
+            li{
+                display: inline-block;
+                padding: 10px 25px;
+            }
+            
+            a{
+                color: #fff;
+            }
+        }
+        
+        .contact-btn{
+            background: $theme-color;
+            margin: 0px 20px;
+        }
+    }
 }
