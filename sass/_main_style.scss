@@ -6,14 +6,13 @@ $font-color:#282726;
 $nav-color:#32312e;
 $footer-color:#403e3a;
 $bg-color:#dedddc;
-
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
 
 
 // ALL
 
 *{
     box-sizing: border-box;
-    font-family: Serif;
 }
 
 
@@ -23,13 +22,12 @@ a{
 }
 
 body{
-    font-family: Serif;
+    font-family: 'cwTeXMing', serif;
 }
 
 p{
     line-height: 1.55em;
     letter-spacing: 0.5px;
-    font-family: serif;
 }
 
 .clearfix{
