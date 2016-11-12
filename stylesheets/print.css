@@ -533,26 +533,21 @@ p {
   .header .nav-zone:first-child {
     display: none;
   }
-  /* line 16, ../sass/_media.scss */
-  .header .fixed-nav {
-    display: block !important;
-    opacity: 0.95 !important;
-  }
-  /* line 20, ../sass/_media.scss */
+  /* line 18, ../sass/_media.scss */
   .header .fixed-nav .logo-box {
     width: 70px;
   }
-  /* line 24, ../sass/_media.scss */
+  /* line 22, ../sass/_media.scss */
   .header .fixed-nav ul {
     display: none;
   }
-  /* line 29, ../sass/_media.scss */
+  /* line 27, ../sass/_media.scss */
   .header .header-bg {
     background-position: bottom center;
     background-size: 100%;
     background-image: url(../images/KV02-mobile.png);
   }
-  /* line 35, ../sass/_media.scss */
+  /* line 33, ../sass/_media.scss */
   .header .slogan {
     top: auto;
     left: auto;
@@ -561,7 +556,7 @@ p {
     margin: 0;
     display: none;
   }
-  /* line 43, ../sass/_media.scss */
+  /* line 41, ../sass/_media.scss */
   .header .slogan p {
     font-size: 18px;
   }
