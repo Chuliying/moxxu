@@ -1,0 +1,42 @@
+@media(max-width:776px){
+    
+    .header{
+
+        .nav-zone{
+            &:first-child{
+                display: none;
+            }
+        }   
+        
+        .fixed-nav{
+            display: block!important;
+            opacity: 0.95!important;
+            
+            .logo-box{
+                width: 70px;
+            }
+            
+            ul{
+                display: none;
+            }
+        }
+
+        .header-bg{
+            background-position: bottom center;
+            background-size: 100%;
+            background-image: url(../images/KV02-mobile.png);
+        }
+        
+        .slogan{
+            top: auto;
+            left: auto;
+            bottom: 15%;
+            right: 15%;
+            margin: 0;
+            
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}

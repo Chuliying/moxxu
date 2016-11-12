@@ -41,16 +41,15 @@ $(document).ready(function(){
 
 function landing(i){
 
-    if (i==3){
+    if (i==4){
         return;
     }
-    
-    console.log(i);
     
     var needOpacity = [
         $('.header-bg'),
         $('.slogan'),
-        $('.nav-zone:first-child')
+        $('.nav-zone:first-child'),
+        $('.scroll-btn')
     ]
     
     needOpacity[i].addClass('no-opacity');
