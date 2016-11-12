@@ -287,6 +287,10 @@ p{
         line-height: 1.9em;
         letter-spacing: 2px;
         color: #fff;
+        -ms-writing-mode: tb-rl; 
+        -webkit-writing-mode: vertical-rl;
+        -moz-writing-mode: vertical-rl;
+        -ms-writing-mode: vertical-rl;
         writing-mode: vertical-rl;
         display: block;
         -webkit-text-orientation: upright;

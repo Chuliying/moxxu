@@ -347,6 +347,10 @@ p {
   line-height: 1.9em;
   letter-spacing: 2px;
   color: #fff;
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   display: block;
   -webkit-text-orientation: upright;
@@ -354,7 +358,7 @@ p {
   text-orientation: upright;
 }
 
-/* line 298, ../sass/_main_style.scss */
+/* line 302, ../sass/_main_style.scss */
 .scroll-btn {
   opacity: 0;
   border: solid 1px rgba(255, 255, 255, 0.5);
@@ -368,7 +372,7 @@ p {
   cursor: pointer;
   transition: all 0.7s;
 }
-/* line 311, ../sass/_main_style.scss */
+/* line 315, ../sass/_main_style.scss */
 .scroll-btn i {
   color: #fff;
   font-size: 36px;
@@ -376,23 +380,23 @@ p {
   opacity: 0.5;
   transition: all 0.7s;
 }
-/* line 319, ../sass/_main_style.scss */
+/* line 323, ../sass/_main_style.scss */
 .scroll-btn:hover {
   border-color: white;
 }
-/* line 322, ../sass/_main_style.scss */
+/* line 326, ../sass/_main_style.scss */
 .scroll-btn:hover i {
   opacity: 1;
   transform: translateY(3px);
 }
 
-/* line 329, ../sass/_main_style.scss */
+/* line 333, ../sass/_main_style.scss */
 .index-about-container {
   position: relative;
   overflow: hidden;
   background-image: url(../images/04paper_texture.png);
 }
-/* line 334, ../sass/_main_style.scss */
+/* line 338, ../sass/_main_style.scss */
 .index-about-container .main-box {
   position: relative;
   z-index: 1;
@@ -400,25 +404,25 @@ p {
   opacity: 0;
   transition: all 3s ease;
 }
-/* line 342, ../sass/_main_style.scss */
+/* line 346, ../sass/_main_style.scss */
 .index-about-container img {
   margin: 25px auto;
 }
-/* line 346, ../sass/_main_style.scss */
+/* line 350, ../sass/_main_style.scss */
 .index-about-container h1 {
   color: #8a2b1e;
   margin-top: 45px;
 }
-/* line 351, ../sass/_main_style.scss */
+/* line 355, ../sass/_main_style.scss */
 .index-about-container p {
   font-size: 17px;
 }
-/* line 355, ../sass/_main_style.scss */
+/* line 359, ../sass/_main_style.scss */
 .index-about-container .btn {
   margin-top: 80px;
   margin-bottom: 45px;
 }
-/* line 360, ../sass/_main_style.scss */
+/* line 364, ../sass/_main_style.scss */
 .index-about-container .bg {
   position: absolute;
   opacity: 0;
@@ -426,45 +430,45 @@ p {
   top: -80%;
   right: -15%;
 }
-/* line 368, ../sass/_main_style.scss */
+/* line 372, ../sass/_main_style.scss */
 .index-about-container .bg:last-child {
   right: auto;
   left: -15%;
   top: -10%;
 }
-/* line 373, ../sass/_main_style.scss */
+/* line 377, ../sass/_main_style.scss */
 .index-about-container .bg:last-child img {
   width: 115%;
 }
-/* line 378, ../sass/_main_style.scss */
+/* line 382, ../sass/_main_style.scss */
 .index-about-container .bg img {
   width: 100%;
 }
 
-/* line 385, ../sass/_main_style.scss */
+/* line 389, ../sass/_main_style.scss */
 .index-about-animate .main-box {
   transform: translateY(0px);
   opacity: 1;
 }
-/* line 390, ../sass/_main_style.scss */
+/* line 394, ../sass/_main_style.scss */
 .index-about-animate .bg {
   right: 0%;
   top: -87%;
   opacity: 1;
 }
-/* line 395, ../sass/_main_style.scss */
+/* line 399, ../sass/_main_style.scss */
 .index-about-animate .bg:last-child {
   right: auto;
   left: 0%;
   top: 0%;
 }
 
-/* line 403, ../sass/_main_style.scss */
+/* line 407, ../sass/_main_style.scss */
 .index-product-zone {
   background-image: url(../images/05productpattern.png);
 }
 
-/* line 407, ../sass/_main_style.scss */
+/* line 411, ../sass/_main_style.scss */
 .index-product-container {
   display: flex;
   padding: 0px;
@@ -472,24 +476,24 @@ p {
   margin: 0 auto;
   background: none;
 }
-/* line 415, ../sass/_main_style.scss */
+/* line 419, ../sass/_main_style.scss */
 .index-product-container > div {
   padding: 60px 25px;
   width: 50%;
 }
-/* line 419, ../sass/_main_style.scss */
+/* line 423, ../sass/_main_style.scss */
 .index-product-container > div:last-child {
   background-image: url(../images/07productpic.png);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 427, ../sass/_main_style.scss */
+/* line 431, ../sass/_main_style.scss */
 .index-product-container .btn {
   margin-bottom: 45px;
 }
 
-/* line 432, ../sass/_main_style.scss */
+/* line 436, ../sass/_main_style.scss */
 .index-conceptstore-container {
   background-image: url(../images/08conceptstore.jpg);
   background-size: 100%;
@@ -497,24 +501,24 @@ p {
   background-position: center;
   padding: 120px 25px 160px;
 }
-/* line 439, ../sass/_main_style.scss */
+/* line 443, ../sass/_main_style.scss */
 .index-conceptstore-container h1, .index-conceptstore-container p, .index-conceptstore-container .btn {
   color: #fff;
 }
-/* line 443, ../sass/_main_style.scss */
+/* line 447, ../sass/_main_style.scss */
 .index-conceptstore-container .btn {
   border-color: #fff;
 }
-/* line 446, ../sass/_main_style.scss */
+/* line 450, ../sass/_main_style.scss */
 .index-conceptstore-container .btn i {
   color: #fff;
 }
-/* line 450, ../sass/_main_style.scss */
+/* line 454, ../sass/_main_style.scss */
 .index-conceptstore-container .btn:hover {
   background: #fff;
   color: #8a2b1e;
 }
-/* line 454, ../sass/_main_style.scss */
+/* line 458, ../sass/_main_style.scss */
 .index-conceptstore-container .btn:hover i {
   color: #8a2b1e;
 }
@@ -560,9 +564,8 @@ p {
     bottom: 15%;
     right: 15%;
     margin: 0;
-    display: none;
   }
-  /* line 44, ../sass/_media.scss */
+  /* line 43, ../sass/_media.scss */
   .header .slogan p {
     font-size: 18px;
   }
