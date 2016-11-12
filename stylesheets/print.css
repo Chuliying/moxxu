@@ -1,0 +1,479 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../sass/_main_style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 18, ../sass/_main_style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 22, ../sass/_main_style.scss */
+body {
+  font-family: serif;
+}
+
+/* line 26, ../sass/_main_style.scss */
+p {
+  line-height: 1.55em;
+  letter-spacing: 0.5px;
+}
+
+/* line 32, ../sass/_main_style.scss */
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* line 39, ../sass/_main_style.scss */
+.main-container {
+  text-align: center;
+  padding: 60px 25px;
+  background-color: #dedddc;
+}
+/* line 44, ../sass/_main_style.scss */
+.main-container h1 {
+  font-size: 28px;
+  padding: 1.5em;
+}
+/* line 49, ../sass/_main_style.scss */
+.main-container p {
+  padding: 0.55em;
+}
+/* line 53, ../sass/_main_style.scss */
+.main-container .btn {
+  margin-top: 60px;
+  border: solid 1px #8a2b1e;
+  color: #8a2b1e;
+  display: inline-block;
+  padding: 12px 45px;
+  cursor: pointer;
+}
+/* line 62, ../sass/_main_style.scss */
+.main-container .btn:hover i {
+  transform: translate(3px, 1px);
+}
+/* line 67, ../sass/_main_style.scss */
+.main-container .btn i {
+  font-size: 18px;
+  line-height: 14px;
+  margin-left: 5px;
+  transform: translate(0px, 1px);
+  transition: all 0.5s;
+}
+
+/* line 80, ../sass/_main_style.scss */
+.header {
+  background-color: #4b4a47;
+  min-height: 100vh;
+}
+/* line 84, ../sass/_main_style.scss */
+.header .header-bg {
+  opacity: 0;
+  transition: opacity 1.5s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/keyvisual.jpg);
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(0, transparent), color-stop(0.08, transparent), color-stop(0.23, black), color-stop(0.4, black), color-stop(0.8, black), color-stop(0.92, transparent), color-stop(1, transparent));
+}
+
+/* line 109, ../sass/_main_style.scss */
+.nav-zone {
+  padding: 0 35px;
+  position: relative;
+  z-index: 100;
+}
+/* line 114, ../sass/_main_style.scss */
+.nav-zone:first-child {
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+/* line 119, ../sass/_main_style.scss */
+.nav-zone .logo-box {
+  float: left;
+  width: 220px;
+}
+/* line 123, ../sass/_main_style.scss */
+.nav-zone .logo-box img {
+  width: 100%;
+}
+/* line 127, ../sass/_main_style.scss */
+.nav-zone .logo-box .fixed-logo {
+  display: none;
+}
+/* line 132, ../sass/_main_style.scss */
+.nav-zone .navi-box {
+  float: right;
+}
+/* line 134, ../sass/_main_style.scss */
+.nav-zone .navi-box ul {
+  padding: 50px 0;
+}
+/* line 137, ../sass/_main_style.scss */
+.nav-zone .navi-box ul li {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 17px;
+}
+/* line 143, ../sass/_main_style.scss */
+.nav-zone .navi-box ul a {
+  color: #fff;
+  transition: all 0.7s;
+}
+/* line 147, ../sass/_main_style.scss */
+.nav-zone .navi-box ul a:hover {
+  color: #b28850;
+}
+/* line 153, ../sass/_main_style.scss */
+.nav-zone .navi-box .contact-btn {
+  background: #b28850;
+  margin: 0px 20px;
+  transition: all 0.7s;
+  color: #eee;
+}
+/* line 159, ../sass/_main_style.scss */
+.nav-zone .navi-box .contact-btn:hover {
+  background: #9e6821;
+  color: #fff;
+}
+/* line 164, ../sass/_main_style.scss */
+.nav-zone .navi-box .contact-btn i {
+  margin-right: 5px;
+}
+
+/* line 171, ../sass/_main_style.scss */
+.no-opacity {
+  opacity: 1 !important;
+}
+
+/* line 175, ../sass/_main_style.scss */
+.fixed-nav {
+  display: none;
+  position: fixed;
+  background: #32312e;
+  width: 100%;
+  padding: 20px 25px;
+  top: 0px;
+  left: 0px;
+}
+/* line 183, ../sass/_main_style.scss */
+.fixed-nav .logo-box {
+  max-width: 150px;
+}
+/* line 185, ../sass/_main_style.scss */
+.fixed-nav .logo-box img {
+  display: none;
+}
+/* line 189, ../sass/_main_style.scss */
+.fixed-nav .logo-box .fixed-logo {
+  display: block;
+}
+/* line 194, ../sass/_main_style.scss */
+.fixed-nav .navi-box ul {
+  padding: 10px 0;
+}
+
+/* line 203, ../sass/_main_style.scss */
+.footer {
+  color: #fff;
+}
+/* line 206, ../sass/_main_style.scss */
+.footer .footer-zone {
+  background-color: #403e3a;
+  padding: 35px;
+}
+/* line 211, ../sass/_main_style.scss */
+.footer .container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+}
+/* line 215, ../sass/_main_style.scss */
+.footer .container .box {
+  text-align: center;
+  padding: 10px 25px;
+  width: 33.33%;
+}
+/* line 220, ../sass/_main_style.scss */
+.footer .container .box:nth-child(2) {
+  border-right: solid 1px #fff;
+  border-left: solid 1px #fff;
+}
+/* line 226, ../sass/_main_style.scss */
+.footer .container .fb-btn {
+  display: inline-block;
+  color: #e7bd85;
+  border: solid 1px #e7bd85;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  margin-top: 3px;
+  text-align: center;
+  transition: all 0.7s;
+}
+/* line 237, ../sass/_main_style.scss */
+.footer .container .fb-btn:hover {
+  color: #b28850;
+  border-color: #b28850;
+}
+/* line 244, ../sass/_main_style.scss */
+.footer .copyright {
+  background-color: #32312e;
+  padding: 15px;
+  text-align: center;
+}
+
+/* line 254, ../sass/_main_style.scss */
+.slogan {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  margin-left: -450px;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+/* line 262, ../sass/_main_style.scss */
+.slogan p {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.35);
+  font-size: 40px;
+  line-height: 1.9em;
+  letter-spacing: 2px;
+  color: #fff;
+  writing-mode: vertical-rl;
+  display: block;
+  -webkit-text-orientation: upright;
+  -moz-text-orientation: upright;
+  text-orientation: upright;
+}
+
+/* line 276, ../sass/_main_style.scss */
+.scroll-btn {
+  border: solid 1px #fff;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  width: 100px;
+  margin-left: -50px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  transition: opacity 0.7s;
+}
+/* line 289, ../sass/_main_style.scss */
+.scroll-btn i {
+  color: #fff;
+  font-size: 36px;
+  transform: translateY(0px);
+  transition: transform 0.7s;
+}
+/* line 296, ../sass/_main_style.scss */
+.scroll-btn:hover {
+  opacity: 1;
+}
+/* line 298, ../sass/_main_style.scss */
+.scroll-btn:hover i {
+  transform: translateY(3px);
+}
+
+/* line 304, ../sass/_main_style.scss */
+.index-about-container {
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/04paper_texture.png);
+}
+/* line 309, ../sass/_main_style.scss */
+.index-about-container .main-box {
+  position: relative;
+  z-index: 1;
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: all 3s ease;
+}
+/* line 317, ../sass/_main_style.scss */
+.index-about-container img {
+  margin: 25px auto;
+}
+/* line 321, ../sass/_main_style.scss */
+.index-about-container h1 {
+  color: #8a2b1e;
+  margin-top: 45px;
+}
+/* line 326, ../sass/_main_style.scss */
+.index-about-container p {
+  font-size: 17px;
+}
+/* line 330, ../sass/_main_style.scss */
+.index-about-container .btn {
+  margin-top: 80px;
+  margin-bottom: 45px;
+}
+/* line 335, ../sass/_main_style.scss */
+.index-about-container .bg {
+  position: absolute;
+  opacity: 0;
+  transition: all 5s ease-out;
+  top: -80%;
+  right: -15%;
+}
+/* line 343, ../sass/_main_style.scss */
+.index-about-container .bg:last-child {
+  right: auto;
+  left: -15%;
+  top: -10%;
+}
+/* line 348, ../sass/_main_style.scss */
+.index-about-container .bg:last-child img {
+  width: 115%;
+}
+/* line 353, ../sass/_main_style.scss */
+.index-about-container .bg img {
+  width: 100%;
+}
+
+/* line 360, ../sass/_main_style.scss */
+.index-about-animate .main-box {
+  transform: translateY(0px);
+  opacity: 1;
+}
+/* line 365, ../sass/_main_style.scss */
+.index-about-animate .bg {
+  right: 0%;
+  top: -87%;
+  opacity: 1;
+}
+/* line 370, ../sass/_main_style.scss */
+.index-about-animate .bg:last-child {
+  right: auto;
+  left: 0%;
+  top: 0%;
+}
+
+/* line 378, ../sass/_main_style.scss */
+.index-product-zone {
+  background-image: url(../images/05productpattern.png);
+}
+
+/* line 382, ../sass/_main_style.scss */
+.index-product-container {
+  display: flex;
+  padding: 0px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: none;
+}
+/* line 390, ../sass/_main_style.scss */
+.index-product-container > div {
+  padding: 60px 25px;
+  width: 50%;
+}
+/* line 394, ../sass/_main_style.scss */
+.index-product-container > div:last-child {
+  background-image: url(../images/07productpic.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 402, ../sass/_main_style.scss */
+.index-product-container .btn {
+  margin-bottom: 45px;
+}
+
+/* line 407, ../sass/_main_style.scss */
+.index-conceptstore-container {
+  background-image: url(../images/08conceptstore.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 120px 25px 160px;
+}
+/* line 414, ../sass/_main_style.scss */
+.index-conceptstore-container h1, .index-conceptstore-container p, .index-conceptstore-container .btn {
+  color: #fff;
+}
+/* line 418, ../sass/_main_style.scss */
+.index-conceptstore-container .btn {
+  border-color: #fff;
+}
