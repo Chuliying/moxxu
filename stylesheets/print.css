@@ -526,7 +526,7 @@ p {
 @media (max-width: 776px) {
   /* line 3, ../sass/_media.scss */
   body {
-    font-family: serif;
+    font-family: 'serif';
   }
 
   /* line 7, ../sass/_media.scss */
@@ -559,7 +559,7 @@ p {
   }
   /* line 36, ../sass/_media.scss */
   .header .slogan {
-    top: 60%;
+    top: 58%;
     left: 60%;
     margin: 0;
   }
