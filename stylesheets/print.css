@@ -554,13 +554,13 @@ p {
   /* line 30, ../sass/_media.scss */
   .header .header-bg {
     background-position: bottom center;
-    background-size: 100%;
+    background-size: 110%;
     background-image: url(../images/KV02-mobile.png);
   }
   /* line 36, ../sass/_media.scss */
   .header .slogan {
-    top: 59%;
-    left: 58%;
+    top: 60%;
+    left: 60%;
     margin: 0;
   }
   /* line 41, ../sass/_media.scss */
