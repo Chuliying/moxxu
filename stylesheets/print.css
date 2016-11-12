@@ -508,9 +508,8 @@ p {
 .index-conceptstore-container .btn:hover {
   background: #fff;
   color: #8a2b1e;
-  border-color: #8a2b1e;
 }
-/* line 449, ../sass/_main_style.scss */
+/* line 448, ../sass/_main_style.scss */
 .index-conceptstore-container .btn:hover i {
   color: #8a2b1e;
 }
