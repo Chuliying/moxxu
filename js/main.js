@@ -14,7 +14,7 @@ $(document).ready(function(){
         // mobile
         
         (if _winHeight< 776){
-            $('.header').css("height",_winHeight);
+            $('.header').css("min-height",_winHeight + "px");
         }
         
         // end
