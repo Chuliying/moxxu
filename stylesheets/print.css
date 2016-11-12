@@ -564,6 +564,6 @@ p {
 
   /* line 48, ../sass/_media.scss */
   .index-about-container {
-    padding-top: 0px;
+    display: none;
   }
 }
