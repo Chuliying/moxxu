@@ -20,6 +20,11 @@ a{
     color: #fff;
     text-decoration: none;
 }
+@font-face {
+    font-family: "cwTeXMing";
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
 
 body{
     font-family: 'cwTeXMing', serif;
