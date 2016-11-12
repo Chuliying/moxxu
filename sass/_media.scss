@@ -14,6 +14,8 @@
         }   
         
         .fixed-nav{
+            opacity: 0;
+            transition: all 0.7s;
             
             .logo-box{
                 width: 70px;
