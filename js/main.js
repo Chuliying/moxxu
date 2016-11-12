@@ -11,6 +11,14 @@ $(document).ready(function(){
         
         landing(0);
         
+        // mobile
+        
+        (if _winHeight< 776){
+            $('.header').css("height",_winHeight);
+        }
+        
+        // end
+        
         
         $('.scroll-btn').click(function(){
             $body.animate({

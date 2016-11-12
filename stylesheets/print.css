@@ -525,30 +525,34 @@ p {
     font-family: serif;
   }
 
-  /* line 10, ../sass/_media.scss */
+  /* line 7, ../sass/_media.scss */
+  .header {
+    min-height: 100%;
+  }
+  /* line 11, ../sass/_media.scss */
   .header .nav-zone:first-child {
     display: none;
   }
-  /* line 15, ../sass/_media.scss */
+  /* line 16, ../sass/_media.scss */
   .header .fixed-nav {
     display: block !important;
     opacity: 0.95 !important;
   }
-  /* line 19, ../sass/_media.scss */
+  /* line 20, ../sass/_media.scss */
   .header .fixed-nav .logo-box {
     width: 70px;
   }
-  /* line 23, ../sass/_media.scss */
+  /* line 24, ../sass/_media.scss */
   .header .fixed-nav ul {
     display: none;
   }
-  /* line 28, ../sass/_media.scss */
+  /* line 29, ../sass/_media.scss */
   .header .header-bg {
     background-position: bottom center;
     background-size: 100%;
     background-image: url(../images/KV02-mobile.png);
   }
-  /* line 34, ../sass/_media.scss */
+  /* line 35, ../sass/_media.scss */
   .header .slogan {
     top: auto;
     left: auto;
@@ -557,13 +561,8 @@ p {
     margin: 0;
     display: none;
   }
-  /* line 42, ../sass/_media.scss */
+  /* line 43, ../sass/_media.scss */
   .header .slogan p {
     font-size: 18px;
-  }
-
-  /* line 48, ../sass/_media.scss */
-  .index-about-container {
-    display: none;
   }
 }

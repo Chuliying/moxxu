@@ -5,7 +5,8 @@
     }
     
     .header{
-
+        min-height: 100%;
+        
         .nav-zone{
             &:first-child{
                 display: none;
@@ -46,6 +47,5 @@
     }
     
     .index-about-container{
-        display: none;
     }
 }
