@@ -6,7 +6,6 @@ $font-color:#282726;
 $nav-color:#32312e;
 $footer-color:#403e3a;
 $bg-color:#dedddc;
-@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
 
 
 // ALL
@@ -20,14 +19,9 @@ a{
     color: #fff;
     text-decoration: none;
 }
-@font-face {
-    font-family: "cwTeXMing";
-}
-
-@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
 
 body{
-    font-family: 'cwTeXMing', serif;
+    font-family: serif;
 }
 
 p{
