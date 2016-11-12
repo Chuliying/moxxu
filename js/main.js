@@ -14,7 +14,7 @@ $(document).ready(function(){
         
         $('.scroll-btn').click(function(){
             $body.animate({
-                scrollTop: _winHeight - 98
+                scrollTop: _winHeight - 68
             }, 700);
         })
         
