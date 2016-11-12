@@ -13,7 +13,7 @@ $(document).ready(function(){
         
         // mobile
         
-        (if _winHeight< 776){
+        if (_winHeight< 776){
             $('.header').css("min-height",_winHeight + "px");
         }
         
