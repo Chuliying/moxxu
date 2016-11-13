@@ -762,9 +762,12 @@ p {
   padding-left: 0px;
   padding-right: 0px;
   text-align: left;
+}
+/* line 705, ../sass/_main_style.scss */
+#about-slider .main-box p {
   line-height: 2.5em;
 }
-/* line 706, ../sass/_main_style.scss */
+/* line 709, ../sass/_main_style.scss */
 #about-slider .main-box hr {
   height: 120px;
   width: 1px;
@@ -772,30 +775,30 @@ p {
   margin-left: 15px;
   margin-top: -15px;
 }
-/* line 712, ../sass/_main_style.scss */
+/* line 715, ../sass/_main_style.scss */
 #about-slider .main-box hr:after, #about-slider .main-box hr:before {
   display: none;
 }
-/* line 718, ../sass/_main_style.scss */
+/* line 721, ../sass/_main_style.scss */
 #about-slider .slider-text {
   position: absolute;
   top: 260px;
   left: 10px;
   display: none;
 }
-/* line 724, ../sass/_main_style.scss */
+/* line 727, ../sass/_main_style.scss */
 #about-slider .slider-text span {
   color: #8a2b1e;
   font-size: 18px;
 }
-/* line 729, ../sass/_main_style.scss */
+/* line 732, ../sass/_main_style.scss */
 #about-slider .slider-text h1 {
   color: #8a2b1e;
   margin-bottom: 35px;
   padding: 0px;
   margin-top: 25px;
 }
-/* line 737, ../sass/_main_style.scss */
+/* line 740, ../sass/_main_style.scss */
 #about-slider .slider-bg {
   position: absolute;
   width: 100%;
@@ -808,25 +811,25 @@ p {
   background-repeat: no-repeat;
   display: none;
 }
-/* line 750, ../sass/_main_style.scss */
+/* line 753, ../sass/_main_style.scss */
 #about-slider #slide1 {
   background-image: url(../images/09redray_AA.jpg);
 }
-/* line 754, ../sass/_main_style.scss */
+/* line 757, ../sass/_main_style.scss */
 #about-slider #slide2 {
   background-image: url(../images/11redray_CC.jpg);
 }
-/* line 758, ../sass/_main_style.scss */
+/* line 761, ../sass/_main_style.scss */
 #about-slider #slide3 {
   background-image: url(../images/10redray_BB.jpg);
 }
-/* line 762, ../sass/_main_style.scss */
+/* line 765, ../sass/_main_style.scss */
 #about-slider #slideDot ul {
   text-align: center;
   position: relative;
   z-index: 10;
 }
-/* line 767, ../sass/_main_style.scss */
+/* line 770, ../sass/_main_style.scss */
 #about-slider #slideDot ul li {
   display: inline-block;
   height: 8px;
@@ -838,20 +841,20 @@ p {
   transition: background 0.7s;
   cursor: pointer;
 }
-/* line 779, ../sass/_main_style.scss */
+/* line 782, ../sass/_main_style.scss */
 #about-slider #slideDot ul .active {
   background: #282726;
 }
 
-/* line 785, ../sass/_main_style.scss */
+/* line 788, ../sass/_main_style.scss */
 .about-video {
   background: url(../images/12benefit_patternB.jpg);
 }
-/* line 788, ../sass/_main_style.scss */
+/* line 791, ../sass/_main_style.scss */
 .about-video h1 {
   color: #fff;
 }
-/* line 792, ../sass/_main_style.scss */
+/* line 795, ../sass/_main_style.scss */
 .about-video .main-box {
   max-width: 800px;
   margin: 0 auto;

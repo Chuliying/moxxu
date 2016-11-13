@@ -700,9 +700,12 @@ p{
             padding-left: 0px;
             padding-right: 0px;
             text-align: left;
-            line-height: 2.5em;
         }
 
+        p{
+            line-height: 2.5em;
+        }
+        
         hr{
             height: 120px;
             width: 1px;
