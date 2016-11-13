@@ -31,6 +31,7 @@
         h1{
             padding: 15px;
             font-size: 30px;
+            letter-spacing: 0.5px;
         }
 
         p{
@@ -208,6 +209,10 @@
                 text-align: center;
             }
 
+            p{
+                line-height: 1.55em;
+            }
+            
             hr{
                 margin: 20px auto;
             }
@@ -252,11 +257,15 @@
         padding: 45px 25px;
         
         .main-box{
-            padding-bottom: 295px;
+            padding-bottom: 325px;
             text-align: center;
             
             h1,p,span{
                 text-align: center;
+            }
+            
+            p{
+                line-height: 1.55em;
             }
 
             hr{

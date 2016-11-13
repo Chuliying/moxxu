@@ -9,7 +9,8 @@ $(document).ready(function(){
             _winWidth = $window.width(),
             _winRate = _winWidth / _winHeight,
             $productItem = $('.about-prouct .product'),
-            $aboutSlider = $('#about-slider');
+            $aboutSlider = $('#about-slider'),
+            $menuli = $('.section-menu li');
         
         // loading
         
@@ -31,6 +32,18 @@ $(document).ready(function(){
             });
             
         }
+        
+        // section menu
+        
+        $menuli.click(function(){
+            var thisKey = $(this).index(),
+                toGo = $('.main-container').eq(thisKey).offset().top;
+            
+            $body.animate({
+                scrollTop: toGo - 68
+            }, 700);    
+            
+        })
         
         // slider
         

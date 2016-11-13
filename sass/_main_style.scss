@@ -67,6 +67,7 @@ p{
 
 .section-menu{
     text-align: center;
+    margin-top: -30px;
     li{
         display: inline-block;
         cursor: pointer;
@@ -93,7 +94,7 @@ p{
         background-repeat: no-repeat;
         background-position: center;
         display: block;
-        margin: 35px auto 65px;
+        margin: 25px auto 55px;
     }
 }
 
@@ -652,6 +653,7 @@ p{
             padding-right: 0px;
             text-align: left;
             color: #fff;
+            line-height: 2.5em;
         }
         
         hr{
@@ -688,13 +690,14 @@ p{
         margin: 0 auto;
         text-align: left;
         position: relative;
-        padding-bottom: 280px;
+        padding-bottom: 320px;
         z-index: 1;
 
         h1,p,span{
             padding-left: 0px;
             padding-right: 0px;
             text-align: left;
+            line-height: 2.5em;
         }
 
         hr{
