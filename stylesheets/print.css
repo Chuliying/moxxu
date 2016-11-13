@@ -807,15 +807,15 @@ p {
 }
 /* line 747, ../sass/_main_style.scss */
 #about-slider #slide1 {
-  background-image: url(../images/09redray_A.jpg);
+  background-image: url(../images/09redray_AA.jpg);
 }
 /* line 751, ../sass/_main_style.scss */
 #about-slider #slide2 {
-  background-image: url(../images/10redray_B.jpg);
+  background-image: url(../images/11redray_CC.jpg);
 }
 /* line 755, ../sass/_main_style.scss */
 #about-slider #slide3 {
-  background-image: url(../images/11redray_C.jpg);
+  background-image: url(../images/10redray_BB.jpg);
 }
 /* line 759, ../sass/_main_style.scss */
 #about-slider #slideDot ul {
@@ -889,26 +889,41 @@ p {
     font-size: 18px;
   }
 
-  /* line 48, ../sass/_media.scss */
+  /* line 42, ../sass/_media.scss */
+  #slide1 {
+    background-image: url(../images/09redray_A.jpg);
+  }
+
+  /* line 46, ../sass/_media.scss */
+  #slide2 {
+    background-image: url(../images/11redray_C.jpg);
+  }
+
+  /* line 50, ../sass/_media.scss */
+  #slide3 {
+    background-image: url(../images/10redray_B.jpg);
+  }
+
+  /* line 60, ../sass/_media.scss */
   .main-container h1 + hr {
     margin-top: 15px;
   }
 
-  /* line 55, ../sass/_media.scss */
+  /* line 67, ../sass/_media.scss */
   .header .nav-zone:first-child {
     display: none;
   }
-  /* line 60, ../sass/_media.scss */
+  /* line 72, ../sass/_media.scss */
   .header .fixed-nav {
     display: block;
     opacity: 0;
     transition: all 0.7s;
   }
-  /* line 65, ../sass/_media.scss */
+  /* line 77, ../sass/_media.scss */
   .header .fixed-nav .logo-box {
     width: 70px;
   }
-  /* line 69, ../sass/_media.scss */
+  /* line 81, ../sass/_media.scss */
   .header .fixed-nav ul {
     display: none;
     position: fixed;
@@ -920,90 +935,90 @@ p {
     padding: 25px;
     z-index: 5;
   }
-  /* line 80, ../sass/_media.scss */
+  /* line 92, ../sass/_media.scss */
   .header .fixed-nav ul li {
     display: block;
     width: 100%;
     text-align: center;
     padding: 25px 15px;
   }
-  /* line 87, ../sass/_media.scss */
+  /* line 99, ../sass/_media.scss */
   .header .fixed-nav ul .contact-btn {
     padding: 15px;
     margin: 0;
     margin-top: 25px;
     margin-bottom: 45px;
   }
-  /* line 96, ../sass/_media.scss */
+  /* line 108, ../sass/_media.scss */
   .header .header-bg {
     background-position: bottom center;
     background-size: 110%;
     background-image: url(../images/KV02-mobile.png);
   }
-  /* line 102, ../sass/_media.scss */
+  /* line 114, ../sass/_media.scss */
   .header .slogan {
     top: 58%;
     left: 60%;
     margin: 0;
   }
-  /* line 107, ../sass/_media.scss */
+  /* line 119, ../sass/_media.scss */
   .header .slogan p {
     font-size: 21px;
   }
 
-  /* line 114, ../sass/_media.scss */
+  /* line 126, ../sass/_media.scss */
   .fixed-nav {
     padding: 10px 15px;
   }
 
-  /* line 118, ../sass/_media.scss */
+  /* line 130, ../sass/_media.scss */
   .hidden-xs {
     display: none;
   }
 
-  /* line 122, ../sass/_media.scss */
+  /* line 134, ../sass/_media.scss */
   .visible-xs {
     display: block;
   }
 
-  /* line 129, ../sass/_media.scss */
+  /* line 141, ../sass/_media.scss */
   .index-product-container {
     display: block;
   }
-  /* line 133, ../sass/_media.scss */
+  /* line 145, ../sass/_media.scss */
   .index-product-container > div {
     padding: 0px;
     width: 100%;
   }
-  /* line 138, ../sass/_media.scss */
+  /* line 150, ../sass/_media.scss */
   .index-product-container h1 {
     padding: 65px 25px 25px;
   }
-  /* line 142, ../sass/_media.scss */
+  /* line 154, ../sass/_media.scss */
   .index-product-container p {
     padding-left: 25px;
     padding-right: 25px;
   }
 
-  /* line 148, ../sass/_media.scss */
+  /* line 160, ../sass/_media.scss */
   .index-conceptstore-container {
     background-size: auto 100%;
   }
 
-  /* line 153, ../sass/_media.scss */
+  /* line 165, ../sass/_media.scss */
   .about-wrapper .header {
     background-image: url(../images/13_kvbackground.jpg);
     background-size: auto 100%;
     margin-top: 49px;
     padding: 15px 15px;
   }
-  /* line 159, ../sass/_media.scss */
+  /* line 171, ../sass/_media.scss */
   .about-wrapper .header h1 {
     font-size: 30px;
     letter-spacing: 1px;
   }
 
-  /* line 168, ../sass/_media.scss */
+  /* line 180, ../sass/_media.scss */
   .footer .container .box {
     font-size: 14px;
     text-align: center !important;
@@ -1012,7 +1027,7 @@ p {
     padding-right: 0px;
     width: 100%;
   }
-  /* line 176, ../sass/_media.scss */
+  /* line 188, ../sass/_media.scss */
   .footer .container .box a {
     font-size: 16px;
     padding: 0px;
@@ -1020,119 +1035,119 @@ p {
     text-align: center;
     font-family: serif !important;
   }
-  /* line 184, ../sass/_media.scss */
+  /* line 196, ../sass/_media.scss */
   .footer .container .box:nth-child(2) {
     border: none;
   }
-  /* line 189, ../sass/_media.scss */
+  /* line 201, ../sass/_media.scss */
   .footer .container .fb-btn {
     margin-right: 0px;
   }
 
-  /* line 196, ../sass/_media.scss */
+  /* line 208, ../sass/_media.scss */
   .copyright p {
     letter-spacing: 0px;
     font-size: 12px;
   }
 
-  /* line 203, ../sass/_media.scss */
+  /* line 215, ../sass/_media.scss */
   .about-prouct {
     padding: 80px 20px;
   }
-  /* line 208, ../sass/_media.scss */
+  /* line 220, ../sass/_media.scss */
   .about-prouct .main-box h1, .about-prouct .main-box p {
     text-align: center;
   }
-  /* line 212, ../sass/_media.scss */
+  /* line 224, ../sass/_media.scss */
   .about-prouct .main-box p {
     line-height: 1.55em;
   }
-  /* line 216, ../sass/_media.scss */
+  /* line 228, ../sass/_media.scss */
   .about-prouct .main-box hr {
     margin: 20px auto;
   }
-  /* line 222, ../sass/_media.scss */
+  /* line 234, ../sass/_media.scss */
   .about-prouct .product img {
     width: 100%;
   }
-  /* line 227, ../sass/_media.scss */
+  /* line 239, ../sass/_media.scss */
   .about-prouct .item1 {
     top: -70px;
     left: 0%;
     width: 250px;
   }
-  /* line 233, ../sass/_media.scss */
+  /* line 245, ../sass/_media.scss */
   .about-prouct .item2 {
     top: 10%;
     left: -90px;
     width: 180px;
   }
-  /* line 239, ../sass/_media.scss */
+  /* line 251, ../sass/_media.scss */
   .about-prouct .item3 {
     width: 230px;
     right: -45px;
     bottom: 35px;
   }
 
-  /* line 246, ../sass/_media.scss */
+  /* line 258, ../sass/_media.scss */
   .about-brand {
     padding-bottom: 0px;
   }
-  /* line 249, ../sass/_media.scss */
+  /* line 261, ../sass/_media.scss */
   .about-brand span {
     display: none;
   }
 
-  /* line 255, ../sass/_media.scss */
+  /* line 267, ../sass/_media.scss */
   #about-slider {
     padding: 45px 25px;
   }
-  /* line 259, ../sass/_media.scss */
+  /* line 271, ../sass/_media.scss */
   #about-slider .main-box {
     padding-bottom: 325px;
     text-align: center;
   }
-  /* line 263, ../sass/_media.scss */
+  /* line 275, ../sass/_media.scss */
   #about-slider .main-box h1, #about-slider .main-box p, #about-slider .main-box span {
     text-align: center;
   }
-  /* line 267, ../sass/_media.scss */
+  /* line 279, ../sass/_media.scss */
   #about-slider .main-box p {
     line-height: 1.55em;
   }
-  /* line 271, ../sass/_media.scss */
+  /* line 283, ../sass/_media.scss */
   #about-slider .main-box hr {
     height: 45px;
     margin: 0 auto 15px;
   }
-  /* line 277, ../sass/_media.scss */
+  /* line 289, ../sass/_media.scss */
   #about-slider .slider-text {
     position: absolute;
     top: 140px;
     left: 0px;
     display: none;
   }
-  /* line 283, ../sass/_media.scss */
+  /* line 295, ../sass/_media.scss */
   #about-slider .slider-text span {
     font-size: 30px;
   }
-  /* line 287, ../sass/_media.scss */
+  /* line 299, ../sass/_media.scss */
   #about-slider .slider-text h1 {
     color: #8a2b1e;
     margin-bottom: 25px;
     margin-top: 25px;
   }
-  /* line 294, ../sass/_media.scss */
+  /* line 306, ../sass/_media.scss */
   #about-slider .slider-bg {
     background-size: auto 100%;
   }
 
-  /* line 301, ../sass/_media.scss */
+  /* line 313, ../sass/_media.scss */
   .video-responsive {
     margin-bottom: 0px;
   }
 
-  /* line 305, ../sass/_media.scss */
+  /* line 317, ../sass/_media.scss */
   .about-video {
     padding: 25px 15px 35px;
   }
