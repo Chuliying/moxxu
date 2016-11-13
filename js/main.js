@@ -22,12 +22,12 @@ $(document).ready(function(){
 
                 if( now > _winHeight*0.6 ){
                     $('.index-about-container').addClass('index-about-animate');
-                    $('.fixed-nav').css("opacity",1);
+                    //$('.fixed-nav').css("opacity",1);
                 }
 
                 else{
                     $('.index-about-container').removeClass('index-about-animate');
-                    $('.fixed-nav').css("opacity",0);
+                    //$('.fixed-nav').css("opacity",0);
                 }
 
             });
@@ -87,7 +87,7 @@ function landing(i){
     var needOpacity = [
         $('.header-bg'),
         $('.slogan'),
-        $('.nav-zone:first-child,.scroll-btn')
+        $('.nav-zone,.scroll-btn')
     ]
     
     needOpacity[i].addClass('no-opacity');
