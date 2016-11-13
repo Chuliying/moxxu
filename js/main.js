@@ -30,6 +30,8 @@ $(document).ready(function(){
 //
 //            });
             
+            $('.fixed-nav').fadeIn(500).css("opacity",1);
+            
             $('.menu-btn').click(function(){
                 $('.header .fixed-nav ul').fadeToggle(700);
                 $(this).toggleClass('menu-active');
