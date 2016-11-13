@@ -161,7 +161,7 @@
         background-size: auto 100%;
     }
     
-    .about-wrapper{
+    .about-wrapper,.contact-wrapper{
         .header{
             background-image: url(../images/13_kvbackground.jpg);
             background-size: auto 100%;
@@ -172,6 +172,12 @@
                 font-size: 30px;
                 letter-spacing: 1px;
             }
+        }
+    }
+    
+    .contact-wrapper{
+        .header{
+            background-image: url(../images/01_KV%20Scenario-mobile.jpg);        
         }
     }
     
@@ -269,7 +275,7 @@
         padding: 45px 25px;
         
         .main-box{
-            padding-bottom: 325px;
+            padding-bottom: 305px;
             text-align: center;
             
             h1,p,span{
@@ -317,5 +323,28 @@
     .about-video{
         padding: 25px 15px 35px;
     }
+
+    .main-tele{
+        margin: -25px auto -35px;
+
+        p{
+            font-size: 30px;
+        }
+    }   
     
+    .location-container{
+        .embed-responsive{
+            display: none!important;
+        }
+        .maps{
+            padding: 0px;
+            width: 100%!important;
+            
+            .btn{
+                margin: 45px auto 0;
+                display: table;
+            }
+        }
+        
+    } 
 }
