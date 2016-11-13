@@ -713,39 +713,42 @@ p {
   padding-right: 0px;
   text-align: left;
   color: #fff;
+}
+/* line 658, ../sass/_main_style.scss */
+.about-prouct .main-box p {
   line-height: 2.5em;
 }
-/* line 659, ../sass/_main_style.scss */
+/* line 662, ../sass/_main_style.scss */
 .about-prouct .main-box hr {
   margin-left: 40px;
 }
-/* line 664, ../sass/_main_style.scss */
+/* line 667, ../sass/_main_style.scss */
 .about-prouct .product {
   position: absolute;
   z-index: 0;
   transform: translateY(0px);
 }
-/* line 670, ../sass/_main_style.scss */
+/* line 673, ../sass/_main_style.scss */
 .about-prouct .item1 {
   top: -15%;
   left: 35%;
 }
-/* line 675, ../sass/_main_style.scss */
+/* line 678, ../sass/_main_style.scss */
 .about-prouct .item2 {
   top: 20%;
   left: -13%;
 }
-/* line 680, ../sass/_main_style.scss */
+/* line 683, ../sass/_main_style.scss */
 .about-prouct .item3 {
   right: -7%;
   bottom: 10%;
 }
 
-/* line 686, ../sass/_main_style.scss */
+/* line 689, ../sass/_main_style.scss */
 #about-slider {
   position: relative;
 }
-/* line 688, ../sass/_main_style.scss */
+/* line 691, ../sass/_main_style.scss */
 #about-slider .main-box {
   max-width: 600px;
   margin: 0 auto;
@@ -754,14 +757,14 @@ p {
   padding-bottom: 320px;
   z-index: 1;
 }
-/* line 696, ../sass/_main_style.scss */
+/* line 699, ../sass/_main_style.scss */
 #about-slider .main-box h1, #about-slider .main-box p, #about-slider .main-box span {
   padding-left: 0px;
   padding-right: 0px;
   text-align: left;
   line-height: 2.5em;
 }
-/* line 703, ../sass/_main_style.scss */
+/* line 706, ../sass/_main_style.scss */
 #about-slider .main-box hr {
   height: 120px;
   width: 1px;
@@ -769,30 +772,30 @@ p {
   margin-left: 15px;
   margin-top: -15px;
 }
-/* line 709, ../sass/_main_style.scss */
+/* line 712, ../sass/_main_style.scss */
 #about-slider .main-box hr:after, #about-slider .main-box hr:before {
   display: none;
 }
-/* line 715, ../sass/_main_style.scss */
+/* line 718, ../sass/_main_style.scss */
 #about-slider .slider-text {
   position: absolute;
   top: 260px;
   left: 10px;
   display: none;
 }
-/* line 721, ../sass/_main_style.scss */
+/* line 724, ../sass/_main_style.scss */
 #about-slider .slider-text span {
   color: #8a2b1e;
   font-size: 18px;
 }
-/* line 726, ../sass/_main_style.scss */
+/* line 729, ../sass/_main_style.scss */
 #about-slider .slider-text h1 {
   color: #8a2b1e;
   margin-bottom: 35px;
   padding: 0px;
   margin-top: 25px;
 }
-/* line 734, ../sass/_main_style.scss */
+/* line 737, ../sass/_main_style.scss */
 #about-slider .slider-bg {
   position: absolute;
   width: 100%;
@@ -805,25 +808,25 @@ p {
   background-repeat: no-repeat;
   display: none;
 }
-/* line 747, ../sass/_main_style.scss */
+/* line 750, ../sass/_main_style.scss */
 #about-slider #slide1 {
   background-image: url(../images/09redray_AA.jpg);
 }
-/* line 751, ../sass/_main_style.scss */
+/* line 754, ../sass/_main_style.scss */
 #about-slider #slide2 {
   background-image: url(../images/11redray_CC.jpg);
 }
-/* line 755, ../sass/_main_style.scss */
+/* line 758, ../sass/_main_style.scss */
 #about-slider #slide3 {
   background-image: url(../images/10redray_BB.jpg);
 }
-/* line 759, ../sass/_main_style.scss */
+/* line 762, ../sass/_main_style.scss */
 #about-slider #slideDot ul {
   text-align: center;
   position: relative;
   z-index: 10;
 }
-/* line 764, ../sass/_main_style.scss */
+/* line 767, ../sass/_main_style.scss */
 #about-slider #slideDot ul li {
   display: inline-block;
   height: 8px;
@@ -835,20 +838,20 @@ p {
   transition: background 0.7s;
   cursor: pointer;
 }
-/* line 776, ../sass/_main_style.scss */
+/* line 779, ../sass/_main_style.scss */
 #about-slider #slideDot ul .active {
   background: #282726;
 }
 
-/* line 782, ../sass/_main_style.scss */
+/* line 785, ../sass/_main_style.scss */
 .about-video {
   background: url(../images/12benefit_patternB.jpg);
 }
-/* line 785, ../sass/_main_style.scss */
+/* line 788, ../sass/_main_style.scss */
 .about-video h1 {
   color: #fff;
 }
-/* line 789, ../sass/_main_style.scss */
+/* line 792, ../sass/_main_style.scss */
 .about-video .main-box {
   max-width: 800px;
   margin: 0 auto;
