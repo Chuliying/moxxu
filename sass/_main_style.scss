@@ -21,6 +21,7 @@ a{
 }
 
 body{
+    display: none;
     font-family: Hoefler Text,Songti TC,serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -86,11 +87,43 @@ p{
     }
 }
 
+// kv zone
+
+.kv-zone{
+    
+    h1{
+        text-align: center;
+        font-size: 50px;
+        color: $font-color;
+        padding: 60px 25px;
+    }
+    
+}
+
+.about-wrapper{
+    .header{
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px 25px 60px;
+        background-image: url(../images/13_kvbackground.jpg);
+    }
+}
 
 // header
+
+.index-wrapper{
+    .header{
+        min-height: 100vh;
+    }
+    
+    .nav-zone:first-child{
+        opacity: 0;
+    }
+}
+
 .header{
     background-color: #fff;
-    min-height: 100vh;
     
     .header-bg{
         opacity: 0;
@@ -115,7 +148,6 @@ p{
     z-index: 100;
     
     &:first-child{
-        opacity: 0;
         transition: opacity 1.5s;
     }
     
@@ -217,10 +249,6 @@ p{
             }
         }
     }
-}
-
-.no-opacity{
-    opacity: 1!important;
 }
 
 .fixed-nav{

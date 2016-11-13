@@ -1,4 +1,10 @@
 
+
+.no-opacity{
+    opacity: 1;
+}
+
+
 @media(min-width:777px){
     .visible-xs{
         display: none;
@@ -19,8 +25,13 @@
         }
     }
     
+    .index-wrapper{
+        .header{
+            
+        }
+    }
+    
     .header{
-        min-height: 100%;
         
         .nav-zone{
             &:first-child{
