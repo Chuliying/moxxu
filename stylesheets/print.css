@@ -714,17 +714,19 @@ p {
     font-size: 14px;
     text-align: center !important;
     margin-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
-  /* line 141, ../sass/_media.scss */
+  /* line 143, ../sass/_media.scss */
   .footer .container .box:nth-child(2) {
     border: none;
   }
-  /* line 146, ../sass/_media.scss */
+  /* line 148, ../sass/_media.scss */
   .footer .container .fb-btn {
     margin-right: 0px;
   }
 
-  /* line 153, ../sass/_media.scss */
+  /* line 155, ../sass/_media.scss */
   .copyright p {
     letter-spacing: 0px;
     font-size: 12px;
