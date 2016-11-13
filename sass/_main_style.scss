@@ -50,6 +50,8 @@ p{
     
     p{
         padding: 0.55em;
+        font-size: 18px;
+        color: $font-color;
     }
     
     .btn{
@@ -165,6 +167,53 @@ p{
             
             i{
                 margin-right: 5px;
+            }
+        }
+    }
+    
+    .menu-btn{
+        cursor: pointer;
+        position: relative;
+        padding: 5px;
+        i{
+            color: #fff;
+            font-size: 19px;
+        }
+        
+        .fa-remove{
+            position: absolute;
+            background: $nav-color;
+            padding: 5px;
+            top: 0px;
+            left: 0px;
+            transform: rotate(45deg);
+            transform-origin: center;
+            opacity: 0;
+            transition: all 0.7s ease;
+        }
+    }
+    
+    .menu-active{
+        .fa-remove{
+            transform: rotate(0deg);
+            opacity: 1;
+        }
+    }
+    
+    .social-btns{
+        text-align: center;
+        a{
+            display: inline-block;
+            border: solid 1px $theme-color;
+            color: $theme-color;
+            margin: 15px;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            
+            i{
+                color: $theme-color;
             }
         }
     }

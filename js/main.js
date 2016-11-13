@@ -31,6 +31,11 @@ $(document).ready(function(){
                 }
 
             });
+            
+            $('.menu-btn').click(function(){
+                $('.header .fixed-nav ul').fadeToggle(700);
+                $(this).toggleClass('menu-active');
+            })
         }
         
         // end
@@ -55,9 +60,17 @@ $(document).ready(function(){
         }
         
         $('.scroll-btn').click(function(){
-            $body.animate({
-                scrollTop: _winHeight - 68
-            }, 700);
+            
+            if (_winWidth>776){
+                $body.animate({
+                    scrollTop: _winHeight - 68
+                }, 700);    
+            }
+            else{
+                $body.animate({
+                    scrollTop: _winHeight - 50
+                }, 700);    
+            }
         })
         
        
