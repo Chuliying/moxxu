@@ -1296,21 +1296,25 @@ p {
     padding: 25px 15px 35px;
   }
 
-  /* line 329, ../sass/_media.scss */
+  /* line 327, ../sass/_media.scss */
+  .main-tele {
+    font-family: serif !important;
+  }
+  /* line 330, ../sass/_media.scss */
   .main-tele p {
     font-size: 30px;
   }
 
-  /* line 335, ../sass/_media.scss */
+  /* line 336, ../sass/_media.scss */
   .location-container .embed-responsive {
     display: none !important;
   }
-  /* line 338, ../sass/_media.scss */
+  /* line 339, ../sass/_media.scss */
   .location-container .maps {
     padding: 0px;
     width: 100% !important;
   }
-  /* line 342, ../sass/_media.scss */
+  /* line 343, ../sass/_media.scss */
   .location-container .maps .btn {
     margin: 45px auto 0;
     display: table;
