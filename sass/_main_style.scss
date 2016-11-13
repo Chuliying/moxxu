@@ -645,18 +645,18 @@ p{
     }
     
     .item1{
-        top: -3%;
+        top: -15%;
         left: 35%;
     }
     
     .item2{
         top:20%;
-        left: -1%;
+        left: -13%;
     }
     
     .item3{
         right: -7%;
-        bottom: 0%;
+        bottom: 10%;
     }
 }
 
@@ -696,6 +696,7 @@ p{
         
         span{
             color: $theme-alert;
+            font-size: 18px;
         }
         
         h1{

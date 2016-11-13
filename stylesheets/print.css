@@ -703,18 +703,18 @@ p {
 }
 /* line 647, ../sass/_main_style.scss */
 .about-prouct .item1 {
-  top: -3%;
+  top: -15%;
   left: 35%;
 }
 /* line 652, ../sass/_main_style.scss */
 .about-prouct .item2 {
   top: 20%;
-  left: -1%;
+  left: -13%;
 }
 /* line 657, ../sass/_main_style.scss */
 .about-prouct .item3 {
   right: -7%;
-  bottom: 0%;
+  bottom: 10%;
 }
 
 /* line 663, ../sass/_main_style.scss */
@@ -758,15 +758,16 @@ p {
 /* line 697, ../sass/_main_style.scss */
 #about-slider .slider-text span {
   color: #8a2b1e;
+  font-size: 18px;
 }
-/* line 701, ../sass/_main_style.scss */
+/* line 702, ../sass/_main_style.scss */
 #about-slider .slider-text h1 {
   color: #8a2b1e;
   margin-bottom: 35px;
   padding: 0px;
   margin-top: 25px;
 }
-/* line 709, ../sass/_main_style.scss */
+/* line 710, ../sass/_main_style.scss */
 #about-slider .slider-bg {
   position: absolute;
   width: 100%;
@@ -779,25 +780,25 @@ p {
   background-repeat: no-repeat;
   display: none;
 }
-/* line 722, ../sass/_main_style.scss */
+/* line 723, ../sass/_main_style.scss */
 #about-slider #slide1 {
   background-image: url(../images/09redray_A.jpg);
 }
-/* line 726, ../sass/_main_style.scss */
+/* line 727, ../sass/_main_style.scss */
 #about-slider #slide2 {
   background-image: url(../images/10redray_B.jpg);
 }
-/* line 730, ../sass/_main_style.scss */
+/* line 731, ../sass/_main_style.scss */
 #about-slider #slide3 {
   background-image: url(../images/11redray_C.jpg);
 }
-/* line 734, ../sass/_main_style.scss */
+/* line 735, ../sass/_main_style.scss */
 #about-slider #slideDot ul {
   text-align: center;
   position: relative;
   z-index: 10;
 }
-/* line 739, ../sass/_main_style.scss */
+/* line 740, ../sass/_main_style.scss */
 #about-slider #slideDot ul li {
   display: inline-block;
   height: 8px;
@@ -809,7 +810,7 @@ p {
   transition: background 0.7s;
   cursor: pointer;
 }
-/* line 751, ../sass/_main_style.scss */
+/* line 752, ../sass/_main_style.scss */
 #about-slider #slideDot ul .active {
   background: #282726;
 }
@@ -1036,5 +1037,45 @@ p {
   /* line 244, ../sass/_media.scss */
   .about-brand span {
     display: none;
+  }
+
+  /* line 250, ../sass/_media.scss */
+  #about-slider {
+    padding: 45px 25px;
+  }
+  /* line 254, ../sass/_media.scss */
+  #about-slider .main-box {
+    padding-bottom: 295px;
+    text-align: center;
+  }
+  /* line 258, ../sass/_media.scss */
+  #about-slider .main-box h1, #about-slider .main-box p, #about-slider .main-box span {
+    text-align: center;
+  }
+  /* line 262, ../sass/_media.scss */
+  #about-slider .main-box hr {
+    height: 45px;
+    margin: 0 auto 15px;
+  }
+  /* line 268, ../sass/_media.scss */
+  #about-slider .slider-text {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    display: none;
+  }
+  /* line 274, ../sass/_media.scss */
+  #about-slider .slider-text span {
+    font-size: 30px;
+  }
+  /* line 278, ../sass/_media.scss */
+  #about-slider .slider-text h1 {
+    color: #8a2b1e;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  /* line 285, ../sass/_media.scss */
+  #about-slider .slider-bg {
+    background-size: auto 100%;
   }
 }

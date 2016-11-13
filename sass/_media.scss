@@ -246,4 +246,47 @@
         }
     }
     
+
+    #about-slider{
+        
+        padding: 45px 25px;
+        
+        .main-box{
+            padding-bottom: 295px;
+            text-align: center;
+            
+            h1,p,span{
+                text-align: center;
+            }
+
+            hr{
+                height: 45px;
+                margin: 0 auto 15px;
+            }
+        }
+
+        .slider-text{
+            position: absolute;
+            top: 140px;
+            left: 0px;
+            display: none;
+
+            span{
+                font-size: 30px;
+            }
+
+            h1{
+                color: $theme-alert;
+                margin-bottom: 25px;
+                margin-top: 25px;
+            }
+        }
+
+        .slider-bg{
+            background-size: auto 100%;
+        }
+
+       
+    }
+    
 }
