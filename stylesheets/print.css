@@ -907,25 +907,21 @@ p {
 
 /* line 848, ../sass/_main_style.scss */
 .main-tele {
-  margin: -25px auto -35px;
   display: block;
-}
-/* line 852, ../sass/_main_style.scss */
-.main-tele p {
   color: #b28850;
   font-size: 36px;
 }
 
-/* line 858, ../sass/_main_style.scss */
+/* line 855, ../sass/_main_style.scss */
 .location-container {
   background: url(../images/08product_-patternB.jpg);
 }
-/* line 861, ../sass/_main_style.scss */
+/* line 858, ../sass/_main_style.scss */
 .location-container .main-box {
   max-width: 900px;
   margin: 0 auto;
 }
-/* line 866, ../sass/_main_style.scss */
+/* line 863, ../sass/_main_style.scss */
 .location-container .maps {
   display: inline-block;
   float: left;
@@ -933,7 +929,7 @@ p {
   padding: 20px;
   text-align: left;
 }
-/* line 873, ../sass/_main_style.scss */
+/* line 870, ../sass/_main_style.scss */
 .location-container .maps h1 {
   margin: 0;
   position: relative;
@@ -943,7 +939,7 @@ p {
   text-align: left;
   margin-bottom: 35px;
 }
-/* line 882, ../sass/_main_style.scss */
+/* line 879, ../sass/_main_style.scss */
 .location-container .maps h1:before {
   position: absolute;
   left: -24px;
@@ -954,41 +950,41 @@ p {
   width: 12px;
   border-radius: 100%;
 }
-/* line 895, ../sass/_main_style.scss */
+/* line 892, ../sass/_main_style.scss */
 .location-container .maps p {
   color: #fff;
   text-align: left;
   padding: 0.25em 10px;
 }
-/* line 901, ../sass/_main_style.scss */
+/* line 898, ../sass/_main_style.scss */
 .location-container .maps .btn {
   color: #fff;
   border-color: #fff;
   margin-left: 15px;
   margin-top: 45px;
 }
-/* line 907, ../sass/_main_style.scss */
+/* line 904, ../sass/_main_style.scss */
 .location-container .maps .btn i {
   color: #fff;
 }
-/* line 911, ../sass/_main_style.scss */
+/* line 908, ../sass/_main_style.scss */
 .location-container .maps .btn:hover {
   color: #8a2b1e;
   background: #fff;
 }
-/* line 914, ../sass/_main_style.scss */
+/* line 911, ../sass/_main_style.scss */
 .location-container .maps .btn:hover i {
   color: #8a2b1e;
 }
-/* line 920, ../sass/_main_style.scss */
+/* line 917, ../sass/_main_style.scss */
 .location-container .maps:nth-child(1), .location-container .maps:nth-child(4) {
   width: 40%;
 }
-/* line 926, ../sass/_main_style.scss */
+/* line 923, ../sass/_main_style.scss */
 .location-container .gm-style .place-card, .location-container .gm-style .default-card, .location-container .gm-style .directions-card {
   display: none !important;
 }
-/* line 929, ../sass/_main_style.scss */
+/* line 926, ../sass/_main_style.scss */
 .location-container .second-hr {
   width: 100%;
   padding-top: 1px;
@@ -1300,25 +1296,21 @@ p {
     padding: 25px 15px 35px;
   }
 
-  /* line 327, ../sass/_media.scss */
-  .main-tele {
-    margin: -25px auto -35px;
-  }
-  /* line 330, ../sass/_media.scss */
+  /* line 329, ../sass/_media.scss */
   .main-tele p {
     font-size: 30px;
   }
 
-  /* line 336, ../sass/_media.scss */
+  /* line 335, ../sass/_media.scss */
   .location-container .embed-responsive {
     display: none !important;
   }
-  /* line 339, ../sass/_media.scss */
+  /* line 338, ../sass/_media.scss */
   .location-container .maps {
     padding: 0px;
     width: 100% !important;
   }
-  /* line 343, ../sass/_media.scss */
+  /* line 342, ../sass/_media.scss */
   .location-container .maps .btn {
     margin: 45px auto 0;
     display: table;
