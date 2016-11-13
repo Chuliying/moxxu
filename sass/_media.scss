@@ -18,6 +18,10 @@
     .visible-xs{
         display: none;
     }
+    
+    .hidden-xs{
+        display: block;
+    }
 }
 
 @media(max-width:776px){
@@ -236,6 +240,10 @@
     
     .about-brand{
         padding-bottom: 0px;
+        
+        span{
+            display: none;
+        }
     }
     
 }

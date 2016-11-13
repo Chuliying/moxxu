@@ -611,7 +611,7 @@ p{
 }
 
 .about-brand{
-    padding-bottom: 85px;
+    padding-bottom: 65px;
 }
 
 .about-prouct{
@@ -657,5 +657,100 @@ p{
     .item3{
         right: -7%;
         bottom: 0%;
+    }
+}
+
+#about-slider{
+    position: relative;
+    .main-box{
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: left;
+        position: relative;
+        padding-bottom: 280px;
+        z-index: 1;
+
+        h1,p,span{
+            padding-left: 0px;
+            padding-right: 0px;
+            text-align: left;
+        }
+
+        hr{
+            height: 120px;
+            width: 1px;
+            background: $font-color;
+            margin-left: 15px;
+            margin-top: -15px;
+            &:after,&:before{
+                display: none;
+            }
+        }
+    }
+    
+    .slider-text{
+        position: absolute;
+        top: 260px;
+        left: 10px;
+        display: none;
+        
+        span{
+            color: $theme-alert;
+        }
+        
+        h1{
+            color: $theme-alert;
+            margin-bottom: 35px;
+            padding: 0px;
+            margin-top: 25px;
+        }
+    }
+    
+    .slider-bg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    
+    #slide1{
+        background-image: url(../images/09redray_A.jpg);
+    }
+    
+    #slide2{
+        background-image: url(../images/10redray_B.jpg);
+    }
+    
+    #slide3{
+        background-image: url(../images/11redray_C.jpg);
+    }
+    #slideDot{
+        ul{
+            text-align: center;
+            position: relative;
+            z-index: 10;
+            
+            li{
+                display: inline-block;
+                height: 8px;
+                width: 8px;
+                border: solid 1px $font-color;
+                border-radius: 100%;
+                margin: 15px;
+                background: transparent;
+                transition: background 0.7s;
+                cursor: pointer;
+            }
+            
+            .active{
+                background: $font-color;
+            }
+        }
     }
 }

@@ -8,7 +8,8 @@ $(document).ready(function(){
             _winHeight = $(window).height(),
             _winWidth = $window.width(),
             _winRate = _winWidth / _winHeight,
-            $productItem = $('.about-prouct .product');
+            $productItem = $('.about-prouct .product'),
+            $aboutSlider = $('#about-slider');
         
         // loading
         
@@ -16,7 +17,8 @@ $(document).ready(function(){
         
         // 產品
         
-        if($productItem != null){
+        
+        if($productItem.length != 0){
             
             $window.scroll(function(){
 
@@ -29,6 +31,65 @@ $(document).ready(function(){
             });
             
         }
+        
+        // slider
+        
+        clicking = false;
+        
+        if($aboutSlider.length != 0){
+            
+            
+            
+            var $sliderText = $('.slider-text'),
+                $sliderBg = $('.slider-bg'),
+                _slideLength = $sliderText.length,
+                $slideDot = $('#slideDot li');
+                
+            
+            changeSlide(0);
+            
+            function changeSlide(i){
+                
+                if ( clicking == true ){
+
+                    return;
+                }
+                $sliderText.stop().fadeOut(700);
+                $sliderBg.stop().fadeOut(700);
+                $slideDot.removeClass("active").eq(i).addClass("active");    
+                $sliderText.eq(i).stop().fadeIn(1200);
+                $sliderBg.eq(i).stop().fadeIn(1200);
+                
+              
+                
+                if ( i < _slideLength-1 ){
+                    i++;
+                }
+                
+                else{
+                    i=0;
+                }
+                
+                setTimeout(
+                    function(){
+                    changeSlide(i);
+                }
+                ,4000);
+            }
+            
+            $slideDot.click(function(){
+
+                var i = $(this).index();
+                clicking = true;
+                $sliderText.stop().fadeOut(700);
+                $sliderBg.stop().fadeOut(700);
+                $slideDot.removeClass("active").eq(i).addClass("active");    
+                $sliderText.eq(i).stop().fadeIn(1200);
+                $sliderBg.eq(i).stop().fadeIn(1200);
+
+            })
+        }
+        
         
         // mobile
         
