@@ -7,10 +7,28 @@ $(document).ready(function(){
             $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body'),
             _winHeight = $(window).height(),
             _winWidth = $window.width(),
-            _winRate = _winWidth / _winHeight;
+            _winRate = _winWidth / _winHeight,
+            $productItem = $('.about-prouct .product');
         
+        // loading
         
         $body.fadeIn(1000);
+        
+        // 產品
+        
+        if($productItem != null){
+            
+            $window.scroll(function(){
+
+                var _now = $window.scrollTop(),
+                    _value = _now*0.085,
+                    transformV = "translateY("+ _value +"px)";
+                
+                $productItem.css("transform",transformV);
+
+            });
+            
+        }
         
         // mobile
         

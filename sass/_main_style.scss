@@ -610,3 +610,52 @@ p{
     }
 }
 
+.about-brand{
+    padding-bottom: 85px;
+}
+
+.about-prouct{
+    background-image: url(../images/08product_-patternB.jpg);
+    padding: 215px 15px;
+    position: relative;
+    overflow: hidden;
+    
+    .main-box{
+        max-width: 600px;
+        margin: 0 auto;
+        z-index: 1;
+        position: relative;
+        
+        h1,p{
+            padding-left: 0px;
+            padding-right: 0px;
+            text-align: left;
+            color: #fff;
+        }
+        
+        hr{
+            margin-left: 40px;
+        }
+    }
+    
+    .product{
+        position: absolute;
+        z-index: 0;
+        transform: translateY(0px);
+    }
+    
+    .item1{
+        top: -3%;
+        left: 35%;
+    }
+    
+    .item2{
+        top:20%;
+        left: -1%;
+    }
+    
+    .item3{
+        right: -7%;
+        bottom: 0%;
+    }
+}

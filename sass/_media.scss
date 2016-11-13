@@ -194,4 +194,48 @@
         }
     }
     
+
+    .about-prouct{
+        padding: 80px 20px;
+
+        .main-box{
+
+            h1,p{
+                text-align: center;
+            }
+
+            hr{
+                margin: 20px auto;
+            }
+        }
+        
+        .product{
+            img{
+                width: 100%;
+            }   
+        }
+
+        .item1{
+            top: -70px;
+            left: 0%;
+            width: 250px;
+        }
+
+        .item2{
+            top:10%;
+            left: -90px;
+            width: 180px;
+        }
+
+        .item3{
+            width: 230px;
+            right: -45px;
+            bottom: 35px;
+        }
+    }
+    
+    .about-brand{
+        padding-bottom: 0px;
+    }
+    
 }

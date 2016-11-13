@@ -665,6 +665,58 @@ p {
   color: #8a2b1e;
 }
 
+/* line 613, ../sass/_main_style.scss */
+.about-brand {
+  padding-bottom: 85px;
+}
+
+/* line 617, ../sass/_main_style.scss */
+.about-prouct {
+  background-image: url(../images/08product_-patternB.jpg);
+  padding: 215px 15px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 623, ../sass/_main_style.scss */
+.about-prouct .main-box {
+  max-width: 600px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+/* line 629, ../sass/_main_style.scss */
+.about-prouct .main-box h1, .about-prouct .main-box p {
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: left;
+  color: #fff;
+}
+/* line 636, ../sass/_main_style.scss */
+.about-prouct .main-box hr {
+  margin-left: 40px;
+}
+/* line 641, ../sass/_main_style.scss */
+.about-prouct .product {
+  position: absolute;
+  z-index: 0;
+  transform: translateY(0px);
+}
+/* line 647, ../sass/_main_style.scss */
+.about-prouct .item1 {
+  top: -3%;
+  left: 35%;
+}
+/* line 652, ../sass/_main_style.scss */
+.about-prouct .item2 {
+  top: 20%;
+  left: -1%;
+}
+/* line 657, ../sass/_main_style.scss */
+.about-prouct .item3 {
+  right: -7%;
+  bottom: 0%;
+}
+
 /* line 3, ../sass/_media.scss */
 .no-opacity {
   opacity: 1;
@@ -838,5 +890,45 @@ p {
   .copyright p {
     letter-spacing: 0px;
     font-size: 12px;
+  }
+
+  /* line 198, ../sass/_media.scss */
+  .about-prouct {
+    padding: 80px 20px;
+  }
+  /* line 203, ../sass/_media.scss */
+  .about-prouct .main-box h1, .about-prouct .main-box p {
+    text-align: center;
+  }
+  /* line 207, ../sass/_media.scss */
+  .about-prouct .main-box hr {
+    margin: 20px auto;
+  }
+  /* line 213, ../sass/_media.scss */
+  .about-prouct .product img {
+    width: 100%;
+  }
+  /* line 218, ../sass/_media.scss */
+  .about-prouct .item1 {
+    top: -70px;
+    left: 0%;
+    width: 250px;
+  }
+  /* line 224, ../sass/_media.scss */
+  .about-prouct .item2 {
+    top: 10%;
+    left: -90px;
+    width: 180px;
+  }
+  /* line 230, ../sass/_media.scss */
+  .about-prouct .item3 {
+    width: 230px;
+    right: -45px;
+    bottom: 35px;
+  }
+
+  /* line 237, ../sass/_media.scss */
+  .about-brand {
+    padding-bottom: 0px;
   }
 }
