@@ -24,7 +24,7 @@ $(document).ready(function(){
             $window.scroll(function(){
 
                 var _now = $window.scrollTop(),
-                    _value = _now*0.085,
+                    _value = _now*0.135,
                     transformV = "translateY("+ _value +"px)";
                 
                 $productItem.css("transform",transformV);
