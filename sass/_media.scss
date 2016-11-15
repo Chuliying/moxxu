@@ -363,6 +363,22 @@
     .concept-slider{
         padding: 45px 0 0;
     }
+    
+    .concept-info{
+        margin: 0!important;
+    }
+    
+    .concept-slider .main-box{
+        .next-btn{
+            margin: 0;
+            right: 10px;
+        }
+        
+        .pre-btn{
+            margin: 0;
+            left: 10px;
+        }
+    }
 
     .concept-slider .section-menu {
         display: block;

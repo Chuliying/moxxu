@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('body').imagesLoaded(function(){
-
+        
         var lightboxArarry = [],
             $LightboxContainer = $('.concept-slider .main-box'),
             _lightboxWidth = $LightboxContainer.width(),
@@ -11,6 +11,29 @@ $(document).ready(function(){
             Lclick = true,
             $menuli = $('.section-menu li'),
             $window = $(window);
+        
+        getValue();    
+        
+        function getValue(){
+                $LightboxContainer = $('.concept-slider .main-box'),
+                _lightboxWidth = $LightboxContainer.width(),
+                _lightboxHeight = $LightboxContainer.height(),
+                N = "next-btn",
+                B = "pre-btn",
+                PX = "px",
+                Lclick = true,
+                $menuli = $('.section-menu li'),
+                $window = $(window);
+            
+            if( _lightboxHeight == 0 ){
+                getValue();
+            }
+        }
+        
+        
+        
+        
+        if
         
         
         $menuli.click(function(){

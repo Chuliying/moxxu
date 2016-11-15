@@ -1499,6 +1499,22 @@ p {
   }
 
   /* line 367, ../sass/_media.scss */
+  .concept-info {
+    margin: 0 !important;
+  }
+
+  /* line 372, ../sass/_media.scss */
+  .concept-slider .main-box .next-btn {
+    margin: 0;
+    right: 10px;
+  }
+  /* line 377, ../sass/_media.scss */
+  .concept-slider .main-box .pre-btn {
+    margin: 0;
+    left: 10px;
+  }
+
+  /* line 383, ../sass/_media.scss */
   .concept-slider .section-menu {
     display: block;
     padding-bottom: 15px;
