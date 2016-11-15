@@ -1,10 +1,10 @@
 $(document).ready(function(){
-    $(document).imagesLoaded(function(){
+    $('.concept-slider').imagesLoaded(function(){
 
         var lightboxArarry = [],
             $LightboxContainer = $('.concept-slider .main-box'),
             _lightboxWidth = $LightboxContainer.width(),
-            _lightboxHeight = $LightboxContainer.find('div').innerHeight(),
+            _lightboxHeight = $LightboxContainer.height(),
             N = "next-btn",
             B = "pre-btn",
             PX = "px",
