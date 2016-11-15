@@ -942,9 +942,10 @@ p{
     }
 }
 .concept-slider {
-    padding: 115px 15px 115px;
+    padding: 55px 15px 115px;
+    background-image: url(../images/03_papertexture_background.jpg.png);
     .section-menu{
-        padding-bottom: 45px;
+        padding-bottom: 25px;
         &:after{
             display: none;
         }
@@ -1022,7 +1023,7 @@ p{
             z-index: 10;
             cursor: pointer;
             i{
-                color: #fff;
+                color: $nav-color;
                 font-size: 32px;
                 line-height: 32px;
             }
@@ -1064,7 +1065,7 @@ p{
         transform-origin: center;
         margin-top: -15%;
         opacity: 0.5;
-        transition: all 12s ease;
+        transition: all 15s ease;
         img{
             width: 100%;
         }

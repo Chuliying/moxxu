@@ -1005,27 +1005,28 @@ p {
 
 /* line 944, ../sass/_main_style.scss */
 .concept-slider {
-  padding: 115px 15px 115px;
+  padding: 55px 15px 115px;
+  background-image: url(../images/03_papertexture_background.jpg.png);
 }
-/* line 946, ../sass/_main_style.scss */
+/* line 947, ../sass/_main_style.scss */
 .concept-slider .section-menu {
-  padding-bottom: 45px;
+  padding-bottom: 25px;
 }
-/* line 948, ../sass/_main_style.scss */
+/* line 949, ../sass/_main_style.scss */
 .concept-slider .section-menu:after {
   display: none;
 }
-/* line 952, ../sass/_main_style.scss */
+/* line 953, ../sass/_main_style.scss */
 .concept-slider .main-box {
   margin: auto;
   max-width: 990px;
 }
-/* line 956, ../sass/_main_style.scss */
+/* line 957, ../sass/_main_style.scss */
 .concept-slider .main-box > div {
   position: relative;
   padding-bottom: 70%;
 }
-/* line 961, ../sass/_main_style.scss */
+/* line 962, ../sass/_main_style.scss */
 .concept-slider .main-box .slider {
   position: absolute;
   top: 0px;
@@ -1034,7 +1035,7 @@ p {
   width: 100%;
   display: none;
 }
-/* line 970, ../sass/_main_style.scss */
+/* line 971, ../sass/_main_style.scss */
 .concept-slider .main-box .slider-box {
   position: absolute;
   left: 0;
@@ -1043,14 +1044,14 @@ p {
   width: 100%;
   overflow: hidden;
 }
-/* line 978, ../sass/_main_style.scss */
+/* line 979, ../sass/_main_style.scss */
 .concept-slider .main-box .slider-box ul {
   display: flex;
   position: relative;
   left: 0px;
   transition: all 0.7s ease;
 }
-/* line 986, ../sass/_main_style.scss */
+/* line 987, ../sass/_main_style.scss */
 .concept-slider .main-box .slide-dot {
   position: absolute;
   bottom: 15px;
@@ -1058,13 +1059,13 @@ p {
   width: 100%;
   z-index: 100;
 }
-/* line 993, ../sass/_main_style.scss */
+/* line 994, ../sass/_main_style.scss */
 .concept-slider .main-box .slide-dot ul {
   text-align: center;
   position: relative;
   z-index: 10;
 }
-/* line 998, ../sass/_main_style.scss */
+/* line 999, ../sass/_main_style.scss */
 .concept-slider .main-box .slide-dot ul li {
   display: inline-block;
   height: 8px;
@@ -1076,11 +1077,11 @@ p {
   transition: background 0.7s;
   cursor: pointer;
 }
-/* line 1010, ../sass/_main_style.scss */
+/* line 1011, ../sass/_main_style.scss */
 .concept-slider .main-box .slide-dot ul .active {
   background: #fff;
 }
-/* line 1017, ../sass/_main_style.scss */
+/* line 1018, ../sass/_main_style.scss */
 .concept-slider .main-box .pre-btn, .concept-slider .main-box .next-btn {
   display: inline-block;
   position: absolute;
@@ -1089,28 +1090,28 @@ p {
   z-index: 10;
   cursor: pointer;
 }
-/* line 1024, ../sass/_main_style.scss */
+/* line 1025, ../sass/_main_style.scss */
 .concept-slider .main-box .pre-btn i, .concept-slider .main-box .next-btn i {
-  color: #fff;
+  color: #32312e;
   font-size: 32px;
   line-height: 32px;
 }
-/* line 1031, ../sass/_main_style.scss */
+/* line 1032, ../sass/_main_style.scss */
 .concept-slider .main-box .pre-btn {
   display: none;
 }
-/* line 1038, ../sass/_main_style.scss */
+/* line 1039, ../sass/_main_style.scss */
 .concept-slider .main-box .pre-btn {
   left: 0px;
   margin-left: -32px;
 }
-/* line 1044, ../sass/_main_style.scss */
+/* line 1045, ../sass/_main_style.scss */
 .concept-slider .main-box .next-btn {
   right: 0px;
   margin-right: -32px;
 }
 
-/* line 1051, ../sass/_main_style.scss */
+/* line 1052, ../sass/_main_style.scss */
 .concept-info {
   background-color: #6d6d6d;
   max-width: none !important;
@@ -1119,7 +1120,7 @@ p {
   padding: 115px 25px;
   margin: 0 -15px !important;
 }
-/* line 1059, ../sass/_main_style.scss */
+/* line 1060, ../sass/_main_style.scss */
 .concept-info .concept-bg {
   position: absolute;
   top: 0px;
@@ -1128,23 +1129,23 @@ p {
   transform-origin: center;
   margin-top: -15%;
   opacity: 0.5;
-  transition: all 12s ease;
+  transition: all 15s ease;
 }
-/* line 1068, ../sass/_main_style.scss */
+/* line 1069, ../sass/_main_style.scss */
 .concept-info .concept-bg img {
   width: 100%;
 }
-/* line 1073, ../sass/_main_style.scss */
+/* line 1074, ../sass/_main_style.scss */
 .concept-info .animated {
   margin-top: 0%;
   opacity: 1;
 }
-/* line 1078, ../sass/_main_style.scss */
+/* line 1079, ../sass/_main_style.scss */
 .concept-info .main-box {
   position: relative;
   z-index: 1;
 }
-/* line 1083, ../sass/_main_style.scss */
+/* line 1084, ../sass/_main_style.scss */
 .concept-info h1, .concept-info p {
   color: #fff;
 }

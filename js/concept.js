@@ -25,7 +25,7 @@ $(document).ready(function(){
         $window.scroll(function(){
 
             var _now = $window.scrollTop(),
-                _height = $window.height()*0.5;
+                _height = $window.height()*0.75;
             
             if ( _now > _height){
                 $('.concept-bg').addClass("animated");    
