@@ -250,6 +250,16 @@ p{
     }
 }
 
+.concept-wrapper{
+    .header{
+        background-image: url(../images/01_KV_Scenario_conceptstore.jpg);
+        h1{
+            color: #fff;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+        }
+    }
+}
+
 // header
 
 .index-wrapper{
@@ -929,5 +939,148 @@ p{
         max-width: 1440px;
         clear: both;
         margin: 15px auto;
+    }
+}
+.concept-slider {
+    padding: 115px 15px 115px;
+    .section-menu{
+        padding-bottom: 45px;
+        &:after{
+            display: none;
+        }
+    }
+    .main-box{
+        margin: auto;
+        max-width: 990px;
+        
+        >div{
+            position: relative;
+            padding-bottom: 70%;
+        }
+        
+        .slider{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            display: none;
+        }
+        
+        .slider-box{
+            position:absolute;
+            left:0;
+            top:0;
+            height:100%;
+            width:100%;
+            overflow:hidden;
+            
+            ul{
+                display: flex;
+                position: relative;
+                left: 0px;
+                transition: all 0.7s ease;
+            }
+        }
+        
+        .slide-dot{
+            position: absolute;
+            bottom: 15px;
+            left: 0px;
+            width: 100%;
+            z-index: 100;
+            
+            ul{
+                text-align: center;
+                position: relative;
+                z-index: 10;
+
+                li{
+                    display: inline-block;
+                    height: 8px;
+                    width: 8px;
+                    border: solid 1px #fff;
+                    border-radius: 100%;
+                    margin: 15px;
+                    background: transparent;
+                    transition: background 0.7s;
+                    cursor: pointer;
+                }
+
+                .active{
+                    background: #fff;
+                }
+            }
+            
+        }
+        
+        .pre-btn,.next-btn{
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            margin-top: -16px;
+            z-index: 10;
+            cursor: pointer;
+            i{
+                color: #fff;
+                font-size: 32px;
+                line-height: 32px;
+            }
+        }
+        
+        .pre-btn{
+            display: none;
+        }
+        .next-btn{
+            
+        }
+        
+        .pre-btn{
+           
+            left: 0px;
+            margin-left: -32px;
+        }
+        
+        .next-btn{
+            right: 0px;
+            margin-right: -32px;
+        }
+    }
+}
+
+.concept-info{
+    background-color: #6d6d6d;
+    max-width: none!important;
+    position: relative;
+    overflow: hidden;
+    padding: 115px 25px;
+    margin: 0 -15px!important;
+    
+    .concept-bg{
+        position: absolute;    
+        top: 0px;
+        left: 0;
+        width: 100%;
+        transform-origin: center;
+        margin-top: -15%;
+        opacity: 0.5;
+        transition: all 12s ease;
+        img{
+            width: 100%;
+        }
+    }
+    
+    .animated{
+        margin-top: 0%;
+        opacity: 1;
+    }
+    
+    .main-box{
+        position: relative;
+        z-index: 1;
+    }
+    
+    h1,p{
+        color: #fff;
     }
 }

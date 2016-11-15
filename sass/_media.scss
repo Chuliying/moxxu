@@ -12,6 +12,12 @@
             background-size: 100%;
         }
     }
+    .concept-wrapper{
+        .header{
+            background-image: url(../images/01_KV_Scenario_conceptstore.jpg);
+            background-size: 100%;
+        }
+    }
 }
 
 @media(min-width:777px){
@@ -181,6 +187,13 @@
         }
     }
     
+    .concept-wrapper{
+        .header{
+            background-image: url(../images/01_KV_Scenario_conceptstore.jpg);        
+            background-size: 100%;
+        }
+    }
+
     .footer{
         .container{
             .box{
@@ -344,7 +357,15 @@
                 margin: 45px auto 0;
                 display: table;
             }
-        }
-        
+        }  
     } 
+    
+    .concept-slider{
+        padding: 45px 0 0;
+    }
+
+    .concept-slider .section-menu {
+        display: block;
+        padding-bottom: 15px;
+    }
 }

@@ -30,20 +30,21 @@ $(document).ready(function(){
                 $productItem.css("transform",transformV);
 
             });
+
+            // section menu
+
+            $menuli.click(function(){
+                var thisKey = $(this).index(),
+                    toGo = $('.main-container').eq(thisKey).offset().top;
+
+                $body.animate({
+                    scrollTop: toGo - 68
+                }, 700);    
+
+            })
             
         }
-        
-        // section menu
-        
-        $menuli.click(function(){
-            var thisKey = $(this).index(),
-                toGo = $('.main-container').eq(thisKey).offset().top;
-            
-            $body.animate({
-                scrollTop: toGo - 68
-            }, 700);    
-            
-        })
+      
         
         // slider
         
