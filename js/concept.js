@@ -12,21 +12,6 @@ $(document).ready(function(){
             $menuli = $('.section-menu li'),
             $window = $(window);
         
-        getValue();    
-        
-        function getValue(){
-            
-                $LightboxContainer = $('.concept-slider .main-box').eq(0);
-                _lightboxWidth = $LightboxContainer.width();
-                _lightboxHeight = $LightboxContainer.height();
-            
-            console.log(_lightboxHeight);
-            
-            if( _lightboxHeight == 0 ){
-                getValue();
-            }
-        }
-        
         
         $menuli.click(function(){
             var _liIndex = $(this).index();
