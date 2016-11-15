@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.concept-slider').imagesLoaded(function(){
+    $('body').imagesLoaded(function(){
 
         var lightboxArarry = [],
             $LightboxContainer = $('.concept-slider .main-box'),
