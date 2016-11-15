@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $('body').imagesLoaded(function(){
         
+        $('.slider').eq(0).fadeIn(700);
+        
         var lightboxArarry = [],
             $LightboxContainer = $('.concept-slider .main-box').eq(0),
             _lightboxWidth = $LightboxContainer.width(),
@@ -21,7 +23,7 @@ $(document).ready(function(){
             
         })
 
-        $('.slider').eq(0).fadeIn(700);
+        
         
         $window.scroll(function(){
 
