@@ -15,9 +15,10 @@ $(document).ready(function(){
         
         $menuli.click(function(){
             var _liIndex = $(this).index();
-            console.log(_liIndex);    
+            $menuli.removeClass('active').eq(_liIndex).addClass('active');
             $('.slider').fadeOut(700);
             $('.slider').eq(_liIndex).fadeIn(700);
+            
         })
 
         $('.slider').eq(0).fadeIn(700);

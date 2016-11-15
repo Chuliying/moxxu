@@ -82,6 +82,9 @@ p{
 .section-menu{
     text-align: center;
     margin-top: -30px;
+    
+    
+    
     li{
         display: inline-block;
         cursor: pointer;
@@ -97,6 +100,10 @@ p{
             border-right: none;
         }
         
+    }
+    
+    .active{
+        color: $theme-alert;
     }
     
     &:after{
