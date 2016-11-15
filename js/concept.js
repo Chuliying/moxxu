@@ -1,5 +1,8 @@
 $(document).ready(function(){
-    $('body').imagesLoaded(function(){
+    
+    var $body = $('body');
+    
+    $body.imagesLoaded(function(){
         
         $body.fadeIn(1000);
         $('.first-child').fadeIn(700);
