@@ -4,7 +4,7 @@ $(document).ready(function(){
         var lightboxArarry = [],
             $LightboxContainer = $('.concept-slider .main-box'),
             _lightboxWidth = $LightboxContainer.width(),
-            _lightboxHeight = $LightboxContainer.find('div').height(),
+            _lightboxHeight = $LightboxContainer.find('div').innerHeight(),
             N = "next-btn",
             B = "pre-btn",
             PX = "px",
