@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('body').imagesLoaded(function(){
         
         var lightboxArarry = [],
-            $LightboxContainer = $('.concept-slider .main-box:first-child'),
+            $LightboxContainer = $('.concept-slider .main-box').eq(0),
             _lightboxWidth = $LightboxContainer.width(),
             _lightboxHeight = $LightboxContainer.height(),
             N = "next-btn",
@@ -16,7 +16,7 @@ $(document).ready(function(){
         
         function getValue(){
             
-                $LightboxContainer = $('.concept-slider .main-box:first-child');
+                $LightboxContainer = $('.concept-slider .main-box').eq(0);
                 _lightboxWidth = $LightboxContainer.width();
                 _lightboxHeight = $LightboxContainer.height();
             
