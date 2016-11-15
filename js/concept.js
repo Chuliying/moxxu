@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('body').imagesLoaded(function(){
         
         var lightboxArarry = [],
-            $LightboxContainer = $('.concept-slider .main-box'),
+            $LightboxContainer = $('.concept-slider .main-box:first-child'),
             _lightboxWidth = $LightboxContainer.width(),
             _lightboxHeight = $LightboxContainer.height(),
             N = "next-btn",
