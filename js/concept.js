@@ -15,25 +15,15 @@ $(document).ready(function(){
         getValue();    
         
         function getValue(){
-                $LightboxContainer = $('.concept-slider .main-box'),
-                _lightboxWidth = $LightboxContainer.width(),
-                _lightboxHeight = $LightboxContainer.height(),
-                N = "next-btn",
-                B = "pre-btn",
-                PX = "px",
-                Lclick = true,
-                $menuli = $('.section-menu li'),
-                $window = $(window);
+                _lightboxWidth = $LightboxContainer.width();
+                _lightboxHeight = $LightboxContainer.height();
+            
+            console.log(_lightboxHeight);
             
             if( _lightboxHeight == 0 ){
                 getValue();
             }
         }
-        
-        
-        
-        
-        if
         
         
         $menuli.click(function(){
