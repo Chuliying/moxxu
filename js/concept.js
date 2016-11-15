@@ -1,6 +1,10 @@
 $(document).ready(function(){
     $('body').imagesLoaded(function(){
         
+        $body.fadeIn(1000);
+        $('.first-child').fadeIn(700);
+        
+        
         var lightboxArarry = [],
             $LightboxContainer = $('.concept-slider .main-box').eq(0),
             _lightboxWidth = $LightboxContainer.width(),
