@@ -425,6 +425,12 @@
             margin-bottom: 60px;
             width: 100%;
             float: none;
+        
+            hr{
+                margin-top: 0px;
+            }
+            
+            
             
             img{
                 max-width: 100%;
@@ -437,6 +443,14 @@
             .btn{
                 margin-top: 15px;
                 width: 90%;
+            }
+        }
+        
+        .second-hr{
+            margin-top: 5px;
+
+            &:after{
+                margin-top: 5px;
             }
         }
     }

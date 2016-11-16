@@ -1644,16 +1644,28 @@ p {
     float: none;
   }
   /* line 429, ../sass/_media.scss */
+  .product-container .main-box hr {
+    margin-top: 0px;
+  }
+  /* line 435, ../sass/_media.scss */
   .product-container .main-box img {
     max-width: 100%;
   }
-  /* line 433, ../sass/_media.scss */
+  /* line 439, ../sass/_media.scss */
   .product-container .main-box .img-box {
     height: 160px;
   }
-  /* line 437, ../sass/_media.scss */
+  /* line 443, ../sass/_media.scss */
   .product-container .main-box .btn {
     margin-top: 15px;
     width: 90%;
+  }
+  /* line 449, ../sass/_media.scss */
+  .product-container .second-hr {
+    margin-top: 5px;
+  }
+  /* line 452, ../sass/_media.scss */
+  .product-container .second-hr:after {
+    margin-top: 5px;
   }
 }
