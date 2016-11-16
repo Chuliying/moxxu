@@ -1619,52 +1619,52 @@ p {
 
   /* line 405, ../sass/_media.scss */
   .product-container {
-    padding: 0px 15px;
+    padding: 0px 15px !important;
   }
-  /* line 408, ../sass/_media.scss */
+  /* line 409, ../sass/_media.scss */
   .product-container .product-header {
     margin: 0 -15px;
     padding: 45px;
     font-size: 30px;
     background-size: 100%;
   }
-  /* line 415, ../sass/_media.scss */
+  /* line 416, ../sass/_media.scss */
   .product-container .sec-2 {
     background-image: url(../images/backgroundKV2.jpg);
   }
-  /* line 419, ../sass/_media.scss */
+  /* line 420, ../sass/_media.scss */
   .product-container .second-hr {
     max-width: 90%;
   }
-  /* line 423, ../sass/_media.scss */
+  /* line 424, ../sass/_media.scss */
   .product-container .main-box {
     padding: 0;
     margin-bottom: 60px;
     width: 100%;
     float: none;
   }
-  /* line 429, ../sass/_media.scss */
+  /* line 430, ../sass/_media.scss */
   .product-container .main-box hr {
     margin-top: 0px;
   }
-  /* line 435, ../sass/_media.scss */
+  /* line 436, ../sass/_media.scss */
   .product-container .main-box img {
     max-width: 100%;
   }
-  /* line 439, ../sass/_media.scss */
+  /* line 440, ../sass/_media.scss */
   .product-container .main-box .img-box {
     height: 160px;
   }
-  /* line 443, ../sass/_media.scss */
+  /* line 444, ../sass/_media.scss */
   .product-container .main-box .btn {
     margin-top: 15px;
     width: 90%;
   }
-  /* line 449, ../sass/_media.scss */
+  /* line 450, ../sass/_media.scss */
   .product-container .second-hr {
     margin-top: 5px;
   }
-  /* line 452, ../sass/_media.scss */
+  /* line 453, ../sass/_media.scss */
   .product-container .second-hr:after {
     margin-top: 5px;
   }
