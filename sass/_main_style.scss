@@ -267,6 +267,17 @@ p{
     }
 }
 
+.product-wrapper{
+    .header{
+        background-image: url(../images/00_productKV.jpg);
+        background-position: 30% center;
+        h1{
+            color: #fff;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+        }
+    }
+}
+
 // header
 
 .index-wrapper{
@@ -1095,5 +1106,70 @@ p{
     
     h1,p{
         color: #fff;
+    }
+}
+.product-container {
+    background: url(../images/backgroundtexture.jpg);
+    
+    .product-header{
+        background-image: url(../images/backgroundKV1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        padding: 75px;
+        font-size: 40px;
+        margin: auto -25px;
+        font-weight: bold;
+    }
+    
+    .section-menu:after{
+        margin-bottom: -10px;
+    }
+    
+    .sec-2{
+        background-image:url(../images/16_KVcategorytwo.png);
+    }
+    
+    .second-hr{
+        max-width: 330px;
+    }
+    
+    .img-box{
+        min-height: 160px;
+        text-align: center;
+        vertical-align: middle;
+        position: relative;
+        &:after{
+            content: "";
+            display: inline-block;
+            height: 160px;
+            vertical-align: middle;
+        }
+    }
+    
+    .group{
+        max-width: 800px;
+        margin: 45px auto 0;
+    }
+    
+    .main-box{
+        width: 50%;
+        float: left;
+        padding: 25px;
+        
+        img{
+            vertical-align: middle;
+            display: inline-block;
+        }
+        
+        p{
+            text-align: left;
+            min-height: 75px;
+        }
+        
+        .btn{
+            width: 90%;
+            margin-top: 45px;
+        }
     }
 }

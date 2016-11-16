@@ -18,6 +18,15 @@
             background-size: 100%;
         }
     }
+    
+
+    .product-wrapper{
+        .header{
+            background-image: url(../images/00_productKV.jpg);
+            background-size: 100%;
+            background-position: center 30%;
+        }
+    }
 }
 
 @media(min-width:777px){
@@ -383,5 +392,52 @@
     .concept-slider .section-menu {
         display: block;
         padding-bottom: 15px;
+    }
+    
+    .product-wrapper{
+        .header{
+            background-image: url(../images/00_productKV.jpg);
+            background-size: auto 100%;
+            background-position: center;
+        }
+    }
+    
+    .product-container {
+        padding: 0px 15px;
+        
+        .product-header{
+            margin: 0 -15px;
+            padding: 45px;
+            font-size: 30px;
+            background-size: 100%;
+        }
+        
+        .sec-2{
+            background-image:url(../images/backgroundKV2.jpg);
+        }
+        
+        .second-hr{
+            max-width: 90%;
+        }
+        
+        .main-box{
+            padding: 0;
+            margin-bottom: 60px;
+            width: 100%;
+            float: none;
+            
+            img{
+                max-width: 100%;
+            }
+            
+            .img-box{
+                height: 160px;
+            }
+            
+            .btn{
+                margin-top: 15px;
+                width: 90%;
+            }
+        }
     }
 }

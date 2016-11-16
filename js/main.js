@@ -10,6 +10,7 @@ $(document).ready(function(){
             _winRate = _winWidth / _winHeight,
             $productItem = $('.about-prouct .product'),
             $aboutSlider = $('#about-slider'),
+            $productHeader = $('.product-header'),
             $menuli = $('.section-menu li');
         
         // loading
@@ -18,6 +19,17 @@ $(document).ready(function(){
         
         // 產品
         
+        if($productHeader.length != 0){
+            $menuli.click(function(){
+                var thisKey = $(this).index(),
+                    toGo = $productHeader.eq(thisKey).offset().top;
+
+                $body.animate({
+                    scrollTop: toGo - 68
+                }, 700);    
+
+            })   
+        }
         
         if($productItem.length != 0){
             
