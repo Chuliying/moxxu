@@ -1986,9 +1986,10 @@ p {
 
   /* line 557, ../sass/_media.scss */
   .product-video {
+    margin-top: -45px;
     padding: 45px 15px;
   }
-  /* line 559, ../sass/_media.scss */
+  /* line 560, ../sass/_media.scss */
   .product-video .main-box .video-box {
     width: 100%;
   }
