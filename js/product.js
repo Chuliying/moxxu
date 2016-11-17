@@ -19,7 +19,11 @@ $(document).ready(function(){
             
             $imgbox.parent().append("<div class='slider-dot'><ul><li class='active'></li>"+stringList+"</ul></div>");
             
-            $imgbox.on("swipeleft",function(){
+            $('img').on("swipeleft",function(){
+                alert();
+            });
+            
+            $("img").on("swipe",function(){
                 $(this).hide();
             });
             
