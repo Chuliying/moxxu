@@ -1076,7 +1076,7 @@ p {
   bottom: 15px;
   left: 0px;
   width: 100%;
-  z-index: 100;
+  z-index: 10;
 }
 /* line 1017, ../sass/_main_style.scss */
 .concept-slider .main-box .slide-dot ul {
