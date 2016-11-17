@@ -89,7 +89,6 @@ $(document).ready(function(){
             })
             
             $imgbox.bind('touchmove mousemove', function (e) {
-                e.preventDefault;
                 var currentX = e.originalEvent.touches ? 
                     e.originalEvent.touches[0].pageX : e.pageX;
                 
@@ -97,7 +96,7 @@ $(document).ready(function(){
                     return;
                 }
                 
-                if (currentX > lastX+30) {
+                if (currentX > lastX + 40) {
 
                     // right
                     
@@ -125,7 +124,7 @@ $(document).ready(function(){
                     
                 }  
                 
-                if (currentX < lastX-30 ){
+                if (currentX < lastX - 40 ){
                     
                     // left
 
