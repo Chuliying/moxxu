@@ -1444,6 +1444,16 @@ p {
   width: 100%;
 }
 
+/* line 1384, ../sass/_main_style.scss */
+.return-product {
+  margin-top: -15px !important;
+  margin-bottom: -15px !important;
+}
+/* line 1388, ../sass/_main_style.scss */
+.return-product:hover i {
+  transform: translate(-3px, 1px) !important;
+}
+
 /* line 3, ../sass/_media.scss */
 .no-opacity {
   opacity: 1;
