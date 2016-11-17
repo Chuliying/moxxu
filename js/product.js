@@ -89,6 +89,7 @@ $(document).ready(function(){
             })
             
             $imgbox.bind('touchmove mousemove', function (e) {
+                e.preventDefault;
                 var currentX = e.originalEvent.touches ? 
                     e.originalEvent.touches[0].pageX : e.pageX;
                 
