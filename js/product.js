@@ -26,59 +26,62 @@ $(document).ready(function(){
             
             var $sliderDotLi = $('.slider-dot li');
             
-            $imgbox.on("swiperight",function(){
-
-                if( swiping == false ){
-                    return;
-                }
-                
-                var thisKey = $(this).attr("key"),
-                    nowLeft = $(this).css("left"), 
-                    nowLeftInt = parseInt(nowLeft),
-                    newLeft = nowLeftInt +_WH;
-                
-                if (thisKey==0){
-                    return;
-                }
-                
-                else{
-                    swiping = false;
-                    thisKey--;
-                    $imgbox.css("left",newLeft);
-                    $imgbox.attr("key",thisKey);
-                    $sliderDotLi.removeClass("active").eq(thisKey).addClass("active");
-                    setTimeout(turnOn,700);
-                }
-            });
-            
             function turnOn(){
                 swiping = true;
             }
             
-            $imgbox.on("swipeleft",function(){
-                
-                if( swiping == false ){
-                    return;
-                }
-                
-                var thisKey = $(this).attr("key"),
-                    nowLeft = $(this).css("left"), 
-                    nowLeftInt = parseInt(nowLeft),
-                    newLeft = nowLeftInt -_WH;
-                
-                
-                if (thisKey==_length-1){
-                    return;
-                }
+            $imgbox.touchwipe({
+                wipeLeft: function() { 
 
-                else{
-                    swiping = false;
-                    thisKey++;
-                    $imgbox.css("left",newLeft);
-                    $imgbox.attr("key",thisKey);
-                    $sliderDotLi.removeClass("active").eq(thisKey).addClass("active");
-                    setTimeout(turnOn,700);
-                }
+                    if( swiping == false ){
+                        return;
+                    }
+
+                    var thisKey = $(this).attr("key"),
+                        nowLeft = $(this).css("left"), 
+                        nowLeftInt = parseInt(nowLeft),
+                        newLeft = nowLeftInt -_WH;
+
+
+                    if (thisKey==_length-1){
+                        return;
+                    }
+
+                    else{
+                        swiping = false;
+                        thisKey++;
+                        $imgbox.css("left",newLeft);
+                        $imgbox.attr("key",thisKey);
+                        $sliderDotLi.removeClass("active").eq(thisKey).addClass("active");
+                        setTimeout(turnOn,700);
+                    }
+                },
+                wipeRight: function() {
+                    if( swiping == false ){
+                        return;
+                    }
+
+                    var thisKey = $(this).attr("key"),
+                        nowLeft = $(this).css("left"), 
+                        nowLeftInt = parseInt(nowLeft),
+                        newLeft = nowLeftInt +_WH;
+
+                    if (thisKey==0){
+                        return;
+                    }
+
+                    else{
+                        swiping = false;
+                        thisKey--;
+                        $imgbox.css("left",newLeft);
+                        $imgbox.attr("key",thisKey);
+                        $sliderDotLi.removeClass("active").eq(thisKey).addClass("active");
+                        setTimeout(turnOn,700);
+                    }
+                },
+                min_move_x: 5,
+                min_move_y: 5,
+                preventDefaultEvents: true
             });
             
         }
