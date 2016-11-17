@@ -18,6 +18,9 @@ h1{
     line-height: 1.35em;
 }
 
+.ui-loader{
+    display: none!important;
+}
 
 a{
     color: #fff;
@@ -1324,5 +1327,56 @@ p{
         background: black;
         border-radius: 100%;
         cursor: pointer;
+    }
+}
+
+.product-video {
+    background: url(../images/08product_-patternB.jpg);
+    padding: 45px 25px;
+    
+    .main-box{
+        
+        max-width: 1280px;
+        margin: 0 auto;
+        
+        >h1{
+            font-size: 40px;
+            color: #fff;
+        }
+        
+        .video-box{
+            width: 33.333%;
+            float: left;
+            padding: 15px;
+            margin-bottom: 10px;
+            
+            h1{
+                color: #fff;
+                font-size: 24px;
+                padding-bottom: 15px;
+                &:before{
+                    content: "●";
+                    color: $theme-alert;
+                    padding-right: 5px;
+                }
+            }
+            
+            .video-img{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                
+                >div{
+                    font-size: 18px;
+                    position: absolute;
+                    color: #fff;
+                    line-height: 18px;
+                    bottom: 25px;
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
     }
 }
