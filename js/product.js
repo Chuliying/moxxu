@@ -96,7 +96,7 @@ $(document).ready(function(){
                     return;
                 }
                 
-                if (currentX > lastX) {
+                if (currentX > lastX+30) {
 
                     // right
                     
@@ -122,7 +122,9 @@ $(document).ready(function(){
                         setTimeout(turnOn,700);
                     }
                     
-                } else {
+                }  
+                
+                if (currentX < lastX-30 ){
                     
                     // left
 
@@ -150,7 +152,6 @@ $(document).ready(function(){
                     }
                 }
                 
-                lastX = currentX;
             });
         }
     })
