@@ -455,4 +455,103 @@
             }
         }
     }
+    
+    .product-inner{
+        
+        padding: 25px;
+        
+        .main-box{
+            
+            display: block;
+            
+            .detail-box{
+                padding: 0px;
+                
+                table{
+                    padding: 0px 20px;
+                    margin-bottom: 10px;
+                    tr{
+                        padding: 15px 0;
+                    }
+                    td{
+                        width: 100%;
+                        padding: 7.5px;
+                        
+                        &:first-child{
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            
+            .img-box{
+                padding: 15px 0px;
+                margin: 0 -25px;
+                display: block;
+                width: auto;
+                position: relative;
+                overflow: hidden;
+                
+                .main-img{
+                    display: none;
+                }
+                
+                >ul{
+                    margin: 0px;
+                    display: flex;
+                    position: relative;
+                    padding: 0px;
+                    left: 0px;
+                    transition: left 0.7s ease;
+                    
+                    li{
+                        float: none;
+                        padding: 0px;
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                
+                .slider-dot{
+                    position: absolute;
+                    width: 100%;
+                    bottom: 35px;
+                    text-align: center;
+                    
+                    ul{
+                        position: relative;
+                        text-align: center;
+                        display: block;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    li{
+                        float: none;
+                        padding: 0;
+                        border: solid 1px $font-color;
+                        display: inline-block;
+                        width: 10px;
+                        height: 10px;
+                        margin: 5px;
+                        border-radius: 100%;
+                        transition: all 0.7s;
+                    }
+                    
+                    .active{
+                        background: $font-color;
+                        
+                    }
+                }
+            }
+            
+            > div{
+                width: 100%;
+            }
+        }
+        
+       
+    } 
 }

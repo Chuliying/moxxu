@@ -11,13 +11,35 @@ $(document).ready(function(){
             $productItem = $('.about-prouct .product'),
             $aboutSlider = $('#about-slider'),
             $productHeader = $('.product-header'),
-            $menuli = $('.section-menu li');
+            $menuli = $('.section-menu li'),
+            $productInner = $('.product-inner');
         
         // loading
         
         $body.fadeIn(1000);
         
         // 產品
+        
+        if($productInner.length != 0){
+            
+            var $reportBox = $('.report-box');
+            
+            $('.img-box li img').click(function(){
+                var _url = $(this).attr("src");
+                $('.main-img img').attr("src",_url);
+            })
+            
+            $('.report').click(function(event){
+                event.preventDefault();
+                $reportBox.fadeIn(700);
+                var pt = (_winHeight - $reportBox.find('img').height())*0.5;
+                $reportBox.css("padding-top",pt);
+            })
+            
+            $('.remove-btn').click(function(){
+                $reportBox.fadeOut(700);
+            })
+        }
         
         if($productHeader.length != 0){
             $menuli.click(function(){

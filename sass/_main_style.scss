@@ -1172,3 +1172,157 @@ p{
         }
     }
 }
+
+.product-inner {
+    background-image: url(../images/backgroundtexture.jpg);
+    
+    .main-box{
+        display: flex;
+        max-width: 950px;
+        margin: auto;
+        >div{
+            width: 50%;
+            text-align: left;
+        }
+        
+        
+        
+        p{
+            padding: 15px 0;
+        }
+        
+        h1{
+            padding: 25px 0px;
+        }
+    }
+    
+    .detail-box{
+        padding: 15px 25px;
+        
+        .title{
+            padding-bottom: 5px;
+            border-bottom: solid 1px $font-color;
+            display: table;
+            
+        }
+        
+        a{
+            font-weight: bold;
+            padding-bottom: 4px;
+            border-bottom: solid 2px $theme-alert;
+            color: $theme-alert;
+        }
+        
+        ul{
+            li{
+                font-size: 18px;
+                line-height: 1.35em;
+                padding: 10px 0;
+                margin-left: 1.5em;
+                position: relative;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    background: $theme-alert;
+                    height: 8px;
+                    width: 8px;
+                    border-radius: 100%;
+                    left: -1.25em;
+                    top: 1em;
+                }
+            }
+        }
+        
+        table{
+            margin: 25px 0;
+            width: 100%;
+            padding: 10px 25px;
+            background: rgba(126, 126, 126, 0.3);
+            display: block;
+            
+            tr{
+                border-bottom: dotted 1px $font-color;
+                width: 100%;
+                display: inline-block;
+                
+                
+                &:last-child{
+                    border-bottom: none;
+                }
+            }
+            
+            td{
+                padding: 15px 0;
+                font-size: 18px;
+                display: inline-block;
+                
+                &:first-child{
+                    width: 30%;
+                }
+                
+                &:last-child{
+                }
+            }
+        }
+    }
+    
+    .img-box{
+        padding:25px 0px 25px 60px;
+        
+        img{
+            width: 100%;
+            border: solid 1px #ccc;
+        }
+        
+        ul{
+            padding: 15px 0;
+            margin: 0 -8px;
+            
+            li{
+                float: right;
+                width: 25%;
+                padding: 8px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.report-box {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background: rgba(0,0,0,0.85);
+    text-align: center;
+    padding-top: 15vh;
+    display: none;
+    
+    div{
+        display: inline-block;
+        position: relative;
+        max-width: 600px;
+        max-width: 85%;
+    }
+    
+    img{
+        width: 100%;
+        
+    }
+    
+    .remove-btn{
+        position: absolute;
+        top: -17.5px;
+        right: -17.5px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        text-align: center;
+        color: #fff;
+        background: black;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+}
