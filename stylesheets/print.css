@@ -1375,8 +1375,9 @@ p {
 /* line 1313, ../sass/_main_style.scss */
 .report-box img {
   width: 100%;
+  pointer-events: none;
 }
-/* line 1318, ../sass/_main_style.scss */
+/* line 1319, ../sass/_main_style.scss */
 .report-box .remove-btn {
   position: absolute;
   top: -17.5px;
@@ -1391,49 +1392,49 @@ p {
   cursor: pointer;
 }
 
-/* line 1333, ../sass/_main_style.scss */
+/* line 1334, ../sass/_main_style.scss */
 .product-video {
   background: url(../images/08product_-patternB.jpg);
   padding: 45px 25px;
 }
-/* line 1337, ../sass/_main_style.scss */
+/* line 1338, ../sass/_main_style.scss */
 .product-video .main-box {
   max-width: 1280px;
   margin: 0 auto;
 }
-/* line 1342, ../sass/_main_style.scss */
+/* line 1343, ../sass/_main_style.scss */
 .product-video .main-box > h1 {
   font-size: 40px;
   color: #fff;
 }
-/* line 1347, ../sass/_main_style.scss */
+/* line 1348, ../sass/_main_style.scss */
 .product-video .main-box .video-box {
   width: 33.333%;
   float: left;
   padding: 15px;
   margin-bottom: 10px;
 }
-/* line 1353, ../sass/_main_style.scss */
+/* line 1354, ../sass/_main_style.scss */
 .product-video .main-box .video-box h1 {
   color: #fff;
   font-size: 24px;
   padding-bottom: 15px;
 }
-/* line 1357, ../sass/_main_style.scss */
+/* line 1358, ../sass/_main_style.scss */
 .product-video .main-box .video-box h1:before {
   content: "●";
   color: #8a2b1e;
   padding-right: 5px;
 }
-/* line 1364, ../sass/_main_style.scss */
+/* line 1365, ../sass/_main_style.scss */
 .product-video .main-box .video-box .video-img {
   position: relative;
 }
-/* line 1366, ../sass/_main_style.scss */
+/* line 1367, ../sass/_main_style.scss */
 .product-video .main-box .video-box .video-img img {
   width: 100%;
 }
-/* line 1370, ../sass/_main_style.scss */
+/* line 1371, ../sass/_main_style.scss */
 .product-video .main-box .video-box .video-img > div {
   font-size: 18px;
   position: absolute;
@@ -1444,12 +1445,12 @@ p {
   width: 100%;
 }
 
-/* line 1384, ../sass/_main_style.scss */
+/* line 1385, ../sass/_main_style.scss */
 .return-product {
   margin-top: -15px !important;
   margin-bottom: -15px !important;
 }
-/* line 1388, ../sass/_main_style.scss */
+/* line 1389, ../sass/_main_style.scss */
 .return-product:hover i {
   transform: translate(-3px, 1px) !important;
 }
