@@ -1491,7 +1491,7 @@ p {
     display: block;
   }
 }
-@media (max-width: 776px) {
+@media (max-width: 768px) {
   /* line 46, ../sass/_media.scss */
   .main-container h1 {
     padding: 15px;
