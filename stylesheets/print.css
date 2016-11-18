@@ -1369,8 +1369,8 @@ p {
 .report-box div {
   display: inline-block;
   position: relative;
+  width: 85%;
   max-width: 600px;
-  max-width: 85%;
 }
 /* line 1313, ../sass/_main_style.scss */
 .report-box img {
