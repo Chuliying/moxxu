@@ -1181,7 +1181,7 @@ p{
     
     .main-box{
         display: flex;
-        max-width: 950px;
+        max-width: 970px;
         margin: auto;
         >div{
             width: 50%;
@@ -1275,6 +1275,30 @@ p{
         img{
             width: 100%;
             border: solid 1px #ccc;
+        }
+        
+        .pre-btn,.next-btn{
+            position: absolute;
+            top: 50%;
+            margin-top: -30px;
+            height: 60px;
+            width: 30px;
+            text-align: center;
+            line-height: 60px;
+            z-index: 10;
+            i{
+                font-size: 24px;
+            }
+
+        }
+        
+        .pre-btn{
+            display: none;
+            left: 15px;
+        }
+        
+        .next-btn{
+            right: 15px;
         }
         
         ul{
