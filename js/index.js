@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){
-
+    
     $('body').imagesLoaded(function(){
         var $window = $(window),
             $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body'),

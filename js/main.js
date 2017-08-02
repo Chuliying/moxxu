@@ -12,7 +12,17 @@ $(document).ready(function(){
             $aboutSlider = $('#about-slider'),
             $productHeader = $('.product-header'),
             $menuli = $('.section-menu li'),
-            $productInner = $('.product-inner');
+            $productInner = $('.product-inner'),
+            $contactBtn   = $('.contact-btn'),
+            $shoppingNav  = $('.shopping-list-nav-box');
+        
+        $contactBtn.mouseover(function(){
+            $shoppingNav.fadeIn(350);
+        })
+        
+        $('.nav-zone').mouseleave(function(){
+            $shoppingNav.fadeOut(350);
+        })
         
         // loading
         
@@ -29,11 +39,25 @@ $(document).ready(function(){
                 $('.main-img img').attr("src",_url);
             })
             
-            $('.report').click(function(event){
+            $('.report,.size-list').click(function(){
+                
+                var $thisName = this.className,
+                    $this = $(this);
+                $reportBox.find('img').css('display',"none");
+                $reportBox.find('table').css('display',"none");
                 event.preventDefault();
                 $reportBox.fadeIn(700);
-                var pt = (_winHeight - $reportBox.find('img').height())*0.5;
-                $reportBox.css("padding-top",pt);
+                if($thisName == "report"){
+                    $reportBox.find('img').css('display',"block");
+                    var pt = (_winHeight - $reportBox.find('img').height())*0.5;
+                    $reportBox.css("padding-top",pt);
+                }
+                else{
+                    $reportBox.find('table').css('display',"block");
+                    var pt = (_winHeight - $reportBox.find('table').height())*0.5;
+                    $reportBox.css("padding-top",pt);
+
+                }
             })
             
             $('.remove-btn').click(function(){

@@ -15,6 +15,10 @@ $(document).ready(function(){
                 "key":0,
                 "length":_length,
             })
+            
+            if(_length==1){
+                $('.next-btn').css("display","none");
+            }
 
             var stringList = ""
             
@@ -34,7 +38,79 @@ $(document).ready(function(){
             
 
             $('.pre-btn,.next-btn').click(function(){
-                var thisClassName = $(this).attr("dir");
+                
+                var thisDir = $(this).attr("dir");
+                
+                if(swiping == false){
+                    return;
+                }
+                
+                if(thisDir == "pre"){
+                    if( swiping == false ){
+                        return;
+                    }
+
+                    var thisKey = $imgbox.attr("key"),
+                        nowLeft = $imgbox.css("left"), 
+                        nowLeftInt = parseInt(nowLeft),
+                        newLeft = nowLeftInt +_WH;
+
+                    if (thisKey==0){
+                        return;
+                    }
+
+                    else{
+                        swiping = false;
+                        thisKey--;
+                        $imgbox.css("left",newLeft);
+                        $imgbox.attr("key",thisKey);
+                        $sliderDotLi.removeClass("active").eq(thisKey).addClass("active");
+                        setTimeout(turnOn,700);
+                    }
+                    
+
+                    if (thisKey!=_length-1){
+                        $('.next-btn').fadeIn(700);
+                    }
+
+                    if (thisKey==0){
+                        $('.pre-btn').fadeOut(700);
+                    }
+                }
+                
+                if(thisDir == "next"){
+                    if( swiping == false ){
+                        return;
+                    }
+
+                    var thisKey = $imgbox.attr("key"),
+                        nowLeft = $imgbox.css("left"), 
+                        nowLeftInt = parseInt(nowLeft),
+                        newLeft = nowLeftInt -_WH;
+
+
+                    if (thisKey==_length-1){
+                        return;
+                    }
+
+                    else{
+                        swiping = false;
+                        thisKey++;
+                        $imgbox.css("left",newLeft);
+                        $imgbox.attr("key",thisKey);
+                        $sliderDotLi.removeClass("active").eq(thisKey).addClass("active");
+                        setTimeout(turnOn,700);
+                    }
+                    
+
+                    if (thisKey!=0){
+                        $('.pre-btn').fadeIn(700);
+                    }
+                    
+                    if (thisKey==_length-1){
+                        $('.next-btn').fadeOut(700);
+                    }
+                }
             })
             
             $imgbox.bind('touchstart mousedown', function(e){
@@ -76,6 +152,14 @@ $(document).ready(function(){
                         setTimeout(turnOn,700);
                     }
                     
+                    if (thisKey!=_length-1){
+                        $('.next-btn').fadeIn(700);
+                    }
+
+                    if (thisKey==0){
+                        $('.pre-btn').fadeOut(700);
+                    }
+                    
                 }  
                 
                 if (currentX < lastX - 40 ){
@@ -103,6 +187,14 @@ $(document).ready(function(){
                         $imgbox.attr("key",thisKey);
                         $sliderDotLi.removeClass("active").eq(thisKey).addClass("active");
                         setTimeout(turnOn,700);
+                    }
+                    
+                    if (thisKey!=0){
+                        $('.pre-btn').fadeIn(700);
+                    }
+
+                    if (thisKey==_length-1){
+                        $('.next-btn').fadeOut(700);
                     }
                 }
                 
